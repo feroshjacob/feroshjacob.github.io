@@ -54,7 +54,7 @@ B.Tech., Electronics and Communication Engineering, NIT, Calicut, India 2004<br/
 </p>
 <p class="centerimage">  <br/><br/>
 <a href= "files/resume.pdf">Curriculum Vitae</a>
-<a href=""><img src="https://scholar.google.com/intl/en/scholar/images/2x/googlelogo_color_270x104dp.png" alt="Google Scholar"></a>
+<a href=""><img height="50px" src="https://scholar.google.com/intl/en/scholar/images/2x/googlelogo_color_270x104dp.png" alt="Google Scholar"></a>
 </p>
 </div>
 
