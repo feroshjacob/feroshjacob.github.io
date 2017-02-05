@@ -57,7 +57,7 @@ B.Tech., Electronics and Communication Engineering, NIT, Calicut, India 2004<br/
 <a href="https://www.linkedin.com/in/ferosh-jacob-03b8109"><img height="50px" src="images/LinkedIn-Logo-2C.png" alt="Linkedin"></a>
 <a href="http://dblp.uni-trier.de/pers/hd/j/Jacob:Ferosh" ><img height="50px" src="images/dblp-5.png" alt="DBLP"></a>
 <a href="http://dl.acm.org/author_page.cfm?id=81456613588&coll=DL&dl=ACM&trk=0&cfid=724861222&cftoken=44157594" ><img height="50px" src="images/ACMDL_Logo_Alt_Color.png" alt="ACM Digital Library"></a>
-<a href=" https://www.researchgate.net/profile/Ferosh_Jacob " ><img height="50px" src="images/ esearchGate_Logo.png " alt="Research Gate"></a>
+<a href=" https://www.researchgate.net/profile/Ferosh_Jacob " ><img height="50px" src="images/ResearchGate_Logo.png " alt="Research Gate"></a>
 </p>
 </div>
 
