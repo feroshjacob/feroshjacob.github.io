@@ -9,17 +9,18 @@
 $(document).ready(function() {
     $(".container").load("home.html");
 });
-$(document).on("click","ul.nav.nav-tabs li", function(){ 
+$(document).on("click","ul.nav.nav-pills li", function(){ 
         $(".container").load($(this).data().page+".html");
 })
 </script>
 </head>
   <body>
-    <ul class="nav nav-tabs">
+	  <span class="label label-default">FEROSH JACOB IS COOL</span>
+    <ul class="nav nav-pills">
       <li role="presentation" data-page="index" class="active"><a href="#">Home</a></li>
+      <li role="presentation" data-page="phd"><a href="#">Ph.D.</a></li>
       <li role="presentation" data-page="ms"><a href="#">M.S.</a></li>
-      <li role="presentation" data-page="phd"><a href="#">Pn.D.</a></li>
-      <li role="presentation" data-page="presenations"><a href="#">Presentations</a></li>
+      <li role="presentation" data-page="presentations"><a href="#">Presentations</a></li>
       <li role="presentation" data-page="publications"><a href="#">Publications</a></li>
     </ul>
   <div class="container">
