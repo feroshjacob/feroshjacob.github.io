@@ -1,34 +1,16 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
-<head>
-<title>Ferosh Jacob, Ph.D</title>
-<meta http-equiv="Content-Type" content="text/html;charset=iso-88591"/>
-  <LINK href="style.css" rel="stylesheet" type="text/css"/>  
-</head>
- 
-<body>
-<div id="header"> 
 
-<div id="logo">
-<img src="images/logo.gif"/>
-</div>
-<div id="title">
-Ferosh Jacob, Ph.D.<br/>
-feroshjacob(@)gmail.com
-</div>
-<div id="menu">
-<table>
-    <tr>
-      <td><a href="index.html">Home </a></td>
-      <td><a href="ms.html">M.S. Thesis</a></td>
-      <td><a href="phd.html">Ph.D. Dissertation</a></td>
-      <td><strong>Presentations</strong></td>
-      <td><a href="publications.html">Publications</a></td>
-    </tr>
-  </table>
-</div>
-</div>
-<div id="main-container"> 
+<div class="panel panel-default">
+  <div class="panel-heading">Presentations</div>
+  <div class="panel-body">
+<p class="centerimage">
+	<strong>Ontology-based semantic search</strong>
+<br/>
+Two key factors of any document search are : 1) How much we understand the input queries and 2) How organized is the data in which we are searching. In this talk, I show how an ontology can be leveraged for 
+understanding and organizing data. To create and maintain an ontology can be cumbersome, I describe some of the challenges I faced, lesson learned, and assumptions made while developing an ontology for the home improvement/retail domain. 
+<br/>
+<i>  <a href="http://ccse.kennesaw.edu/acmse/keynote-speakers.php">ACMSE 2017</a></i>
+<br/>
+
 <p class="centerimage">
 	<strong>Machine learning techniques in Java</strong>
 <br/>
@@ -37,7 +19,7 @@ we have many projects that are implemented in Java that make use of state-of-the
 of some of these projects along with their motivation and overall impact. The talk also includes a short demo on how to implement a machine learning 
 based solution for a real world application in the home improvement/ retail domain. 
 <br/>
-<i>Presentations</i>: <a href="files/ajug2016.pptx">Atlanta Java Users Group (AJUG) 2016</a> 
+<i>Slides</i>: <a href="files/ajug2016.pptx">Atlanta Java Users Group (AJUG) 2016</a> 
 <br/>
 
 <p class="centerimage">
@@ -52,7 +34,7 @@ taken from actual internal projects that explain how data scientists at CB not w
 design, implement, and test Big Data applications. We also compare the execution time of a WebScalding program with its sequential Python counterpart to 
 illustrate the super linear speed up of WebScalding programs.
 <br/>
-<i>Presentations</i>: <a href="files/bigdataservice2015.pptx">BigDataService 2015</a> 
+<i>Slides</i>: <a href="files/bigdataservice2015.pptx">BigDataService 2015</a> 
 <br/>
 
 <p class="centerimage">
@@ -70,7 +52,7 @@ different curated and non-curated sources. The system is able to identify malfor
 comparative evaluation of the semi-automated sCooL system against the existing manual mapping implementation and show that sCooL provides better coverage with improved accuracy. 
 
 <br/>
-<i>Presentations</i>: <a href="files/bddac_2014.pptx">BDDAC 2014</a> 
+<i>Slides</i>: <a href="files/bddac_2014.pptx">BDDAC 2014</a> 
 <br/>
 </p>
 
@@ -82,7 +64,7 @@ Domain-agnostic signature discovery entails study across multiple scientific dis
 an engineering issue on how to generate web service wrappers for these heterogeneous executables and to compose them into a scientific workflow environment (e.g., Taverna). In this position paper, we summarize our work on two simple Domain-Specific Languages (DSLs) that automate these processes. Our Service Description Language (SDL) describes key elements of a signature discovery service and automatically generates its implementation code. The Workflow Description Language (WDL) describes the
 pipeline of services and generates deployable artifacts for the Taverna workflow management system. We demonstrate our approach with a real-world workflow composed of services wrapping remote executables.
 <br/>
-<i>Presentations</i>: <a href="files/dsm_2012.pptx">Splash DSM 2012</a> 
+<i>Slides</i>: <a href="files/dsm_2012.pptx">Splash DSM 2012</a> 
 <br/>
 </p>
 
@@ -93,7 +75,7 @@ Graphical Processing Unit (GPU) programming languages are used extensively for g
 Application Programming Interface (API) targeted for GPU programming is extended to shared memory using OpenMP.
 
 <br/>
-<i>Presentations</i>: <a href="files/splash2010src.pdf">Splash 2010 SRC</a>, <a href="files/acmse-2011-slides.pdf">ACMSE 2011</a>
+<i>Slides</i>: <a href="files/splash2010src.pdf">Splash 2010 SRC</a>, <a href="files/acmse-2011-slides.pdf">ACMSE 2011</a>
 <br/>
 </p>
 	<p class="centerimage">
@@ -102,12 +84,12 @@ Application Programming Interface (API) targeted for GPU programming is extended
 Graphical Processing Unit (GPU) programming languages are used extensively for general-purpose computations. However, GPU programming languages are at a level of abstraction suitable only for use by expert parallel programmers. This paper presents a new approach through which 'C' or Java programmers can access these languages without having to focus on the technical or language-specific details. A prototype of the approach, named CUDACL, is introduced through which a programmer can
 specify one or more parallel blocks in a file and execute in a graphical processing unit. CUDACL also helps the programmer to make CUDA or OpenCL kernel calls inside an existing program. Two scenarios have been successfully implemented to assess the usability and potential of the tool. The tool was created based on a detailed anlysis of the CUDA and OpenCL programs. Our evaluation of CUDACL compared to other similar approaches shows the efficiency and effectiveness of CUDACL.
 <br/>
-<i>Presentations</i>: <a href="files/hipc2010.pdf">HIPC 2010</a>, <a href="files/hipc2010srs.pdf">HIPC SRS 2010</a>  
+<i>Slides</i>: <a href="files/hipc2010.pdf">HIPC 2010</a>, <a href="files/hipc2010srs.pdf">HIPC SRS 2010</a>  
 <br/>
 Programming GPUs has several challenges with respect to the amount of efforts spent in combining the kernel functional code of an application with the parallel concerns offered by APIs from various GPUs. This project introduces our approach for raising the level of abstaction for programming GPUs. We have implemented an abstract API that can be used with the Compute Unified Device Architecture (CUDA) and the Open Compute Language (OpenCL) frameworks, so that the mechanical steps involved in
 writing the GPU code are abstracted in separate modules. The approach involves static code analysis and generative programming techniques for automatically generating the host code required for CUDA and OpenCL frameworks from minimal specifications provided by the programmers. The generated code resembles the hand-written code and the performance of the generated code is comparable to the hand-written code.
 <br/>
-<i>Presentations</i>: <a href="files/pdpta2010.pdf">PDPTA 2010</a>  
+<i>Slides</i>: <a href="files/pdpta2010.pdf">PDPTA 2010</a>  
 </p>
 	<p class="centerimage">
 	<strong>Code templates</strong>
@@ -116,7 +98,7 @@ This project investigates the use of a natural language processing technique tha
 templates. Many existing code editors support code templates, but programmers are expected to manually define these templates and subsequently add them as templates in the editor. Furthermore, the support of editors to provide templates based on the editing context is still limited. The use of n-gram language models within the context of software development is described and evaluated to overcome these restrictions. The technique can search for project-specific code templates and
 present these templates to the programmer based on the current editing context. 
 <br/>
-<i>Presentations</i>: <a href="files/acmse2010.pdf">ACMSE 2010</a> 
+<i>Slides</i>: <a href="files/acmse2010.pdf">ACMSE 2010</a> 
 <br/>
 </p>
 
@@ -126,10 +108,8 @@ present these templates to the programmer based on the current editing context.
 Tool support for code clones can improve software quality and maintainability. While significant research has been done in locating clones in existing source code, there has been less of a research focus on pro-actively tracking and supporting copy-paste modify operations, even though copying and pasting is a major source of clone formation and the resulting clones are then often modified. We designed and implemented a programming editor, based on the Eclipse integrated development
 environment, named CSeR (Code Segment Reuse), which keeps a record of copy-and paste-induced clones and then tracks and visualizes the changes made to a clone with distinct colors. The core of CSeR is an algorithm that actively compares two clones for detailed differences as a programmer edits either one of them. This edit-based comparison algorithm is unique to CSeR and produces more immediate, accurate, and natural results than other differencing tools. 
 <br/>
-<i>Presentations</i>: <a href="files/iwsc2010.pdf">ICSE IWSC 2010</a> 
+<i>Slides</i>: <a href="files/iwsc2010.pdf">ICSE IWSC 2010</a> 
 <br/>
 </p>
-
 </div>
-</body>
-</html>
+</div>
