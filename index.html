@@ -9,20 +9,32 @@
 $(document).ready(function() {
     $(".container").load("home.html");
 });
-$(document).on("click","ul.nav.nav-pills li", function(){ 
+$(document).on("click","ul.nav.navbar-nav.navbar-right li", function(){ 
         $(".container").load($(this).data().page+".html");
 })
 </script>
 </head>
   <body>
-	  <span class="label label-default">FEROSH JACOB IS COOL</span>
-    <ul class="nav nav-pills">
-      <li role="presentation" data-page="index" class="active"><a href="#">Home</a></li>
-      <li role="presentation" data-page="phd"><a href="#">Ph.D.</a></li>
-      <li role="presentation" data-page="ms"><a href="#">M.S.</a></li>
-      <li role="presentation" data-page="presentations"><a href="#">Presentations</a></li>
-      <li role="presentation" data-page="publications"><a href="#">Publications</a></li>
-    </ul>
+   
+<nav id="sticker" class="navbar navbar">
+    <div class="navbar-header">
+     <a class="menu"><i class="fa fa-bars" id="menu_icon"></i></a>
+      <a class="navbar-brand" href="#">Ferosh Jacob Ph.D.  
+    <!--img src="images/ferosh.jpeg" width="25%" class="img-responsive" /-->
+<span class="label label-default">feroshjacob (@) gmail.com<span>
+      </a>
+    </div><!--navbar-header close-->
+    <div class="collapse navbar-collapse drop_menu" id="content_details">
+      <ul class="nav navbar-nav navbar-right">
+      <li role="presentation" data-page="index" class="active"><a href="#"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+      <li role="presentation" data-page="phd"><a href="#"><span class="glyphicon glyphicon-king"></span>Ph.D.</a></li>
+      <li role="presentation" data-page="ms"><a href="#"><span class="glyphicon glyphicon-queen"></span>M.S.</a></li>
+      <li role="presentation" data-page="presentations"><a href="#"><span class="glyphicon glyphicon-blackboard"></span>Presentations</a></li>
+      <li role="presentation" data-page="publications"><a href="#"><span class="glyphicon glyphicon-education"></span>Publications</a></li>
+      </ul><!--navbar-right close-->
+    </div><!--collapse navbar-collapse drop_menu close-->
+</nav><!--navbar navbar-inverse close-->
+
   <div class="container">
   </div> 
 </body>
