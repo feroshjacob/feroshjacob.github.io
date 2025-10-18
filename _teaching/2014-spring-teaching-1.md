@@ -1,20 +1,35 @@
 ---
 title: "Teaching experience 1"
 collection: teaching
-type: "Undergraduate course"
+type: "graduate courses"
 permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+venue: "Kennesaw State University, Department of Computer Science"
+date: 2025-10-17
+location: "Kennesaw, GA"
 ---
-
 This is a description of a teaching experience. You can use markdown like any other post.
 
-Heading 1
-======
+  <ul class="list-group">
+	  <li class="list-group-item"><strong>CS 7263 Informational Retrieval</strong>, <a href="http://kennesaw.edu"> Kennesaw State University</a>  <span class="badge">2025 Fall</span></li> 
+	  <li class="list-group-item"><strong>CS 7265 Big Data Analytics</strong>, <a href="http://kennesaw.edu"> Kennesaw State University</a>  <span class="badge">2025 Spring</span></li> 
+	  <li class="list-group-item"><strong>CS 7263 Informational Retrieval</strong>, <a href="http://kennesaw.edu"> Kennesaw State University</a>  <span class="badge">2024 Fall</span></li> 
+	  <li class="list-group-item"><strong>CS 7050 Data Warehousing and Mining</strong>, <a href="http://kennesaw.edu"> Kennesaw State University</a>  <span class="badge">2024 Summer</span></li>
+	  <li class="list-group-item"><strong>CS 4306 Algorithm Analysis</strong>, <a href="http://kennesaw.edu"> Kennesaw State University</a>  <span class="badge">2024 Spring</span></li>
+	  <li class="list-group-item"><strong>CS 7263 Informational Retrieval</strong>, <a href="http://kennesaw.edu"> Kennesaw State University</a>  <span class="badge">2023 Fall</span></li> 
+	  <li class="list-group-item"><strong>SWE 6633 Software Project Plan & Management</strong>, <a href="http://kennesaw.edu"> Kennesaw State University</a>  <span class="badge">2023 Summer</span></li> 
+	  <li class="list-group-item"><strong>SWE 6813 Web Service Engineering</strong>, <a href="http://kennesaw.edu"> Kennesaw State University</a>  <span class="badge">2023 Spring</span></li> 
+	  <li class="list-group-item"><strong>SWE 6613 Requirements Engineering </strong>, <a href="http://kennesaw.edu"> Kennesaw State University</a>  <span class="badge">2022 Fall</span></li> 
+	    <li class="list-group-item"><strong>SWE 6673 Software Testing & Verification </strong>, <a href="http://kennesaw.edu"> Kennesaw State University</a>  <span class="badge">2022 Spring</span></li> 
+	  <li class="list-group-item"><strong>SWE 6763 Software Evaluation & Measurement </strong>, <a href="http://kennesaw.edu"> Kennesaw State University</a>  <span class="badge">2021 Fall</span></li> 
+	<li class="list-group-item"><strong>SWE 4663 Software Project Management </strong>, <a href="http://kennesaw.edu"> Kennesaw State University</a>  <span class="badge">2021 Spring</span></li>
+	  <li class="list-group-item"><strong><a href="http://ksuweb.kennesaw.edu/~fjacob1/courses/CS7263Text Mining.html">CS 7263 Text Mining</strong></a>, <a href="http://kennesaw.edu"> Kennesaw State University</a>  <span class="badge">2019 Spring</span></li>
+	<li class="list-group-item"><strong>CS 6045 Advanced Algorithms</strong>, <a href="http://kennesaw.edu"> Kennesaw State University</a>  <span class="badge">2018 Fall</span></li>
+	<li class="list-group-item"><strong>CS 4242 Artificial Intelligence</strong>, <a href="http://kennesaw.edu"> Kennesaw State University</a>  <span class="badge">2018 Summer</span></li>
+	<li class="list-group-item"><strong><a href="http://ksuweb.kennesaw.edu/~fjacob1/courses/CS7263Text Mining.html">CS 7263 Text Mining</strong></a>, <a href="http://kennesaw.edu"> Kennesaw State University</a>  <span class="badge">2018 Spring</span></li>
+	<li class="list-group-item"><strong><a href="http://ksuweb.kennesaw.edu/~fjacob1/courses/CS 1301: Programming Principles I.html">CS 1301 Programming Principles I (Section 12)</a></strong>, <a href="http://kennesaw.edu"> Kennesaw State University</a>  <span class="badge">2017 Fall</span></li>
+	<li class="list-group-item"><strong>CS 6021 Advanced Computer Architecture</strong>, <a href="http://kennesaw.edu"> Kennesaw State University</a>  <span class="badge">2017 Summer</span></li>
+	<li class="list-group-item"><strong>MA 132 Calculus II </strong>, <a href="http://clarkson.edu"> Clarkson University</a>  <span class="badge">2009 Spring</span></li>
+	<li class="list-group-item"><strong>MA 131 Calculus I </strong>, <a href="http://clarkson.edu"> Clarkson University</a>  <span class="badge">2008 Fall </span></li>
 
-Heading 2
-======
-
-Heading 3
-======
+	 
+ </ul>
