@@ -1,13 +1,15 @@
 ---
 permalink: /terms/
 title: "Terms and Privacy Policy"
-modified: 2016-06-06
+modified: 2025-10-19
 ---
 
 {% include base_path %}
 {% include toc %}
 
 ## Privacy Policy
+
+**Disclaimer: This website was built with [Jekyll](https://jekyllrb.com/) and this note below came with the template. So I assume this is true.**
 
 The privacy of my visitors is extremely important. This Privacy Policy outlines the types of personal information that is received and collected and how it is used.
 

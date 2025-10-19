@@ -5,8 +5,13 @@ permalink: /posts/2019/01/teaching-philosophy/
 tags:
   - teaching
   - teaching philosophy
+excerpt: Teaching methods should be flexible, evolving based on the students, course content, and learning environment.
   
 ---
+
+
+What to Teach
+======
 I consider teaching both a challenging and exciting profession. From a technical perspective, teaching can be defined as a three-step cyclical process. First, a teacher is given a subject and a set of students. In the initial step, the teacher engages in background reading and develops excitement about the topic. Next, the teacher conveys that excitement and knowledge to the students. Finally, students expand their knowledge independently and provide feedback to the teacher, who updates their understanding in preparation for the next group of students. The students’ ultimate contribution, which can have a significant impact on the world, heavily depends on the teacher’s ability to engage and inspire them. While it can be difficult to cultivate and transmit this excitement, it is not impossible. My approach to this challenge is guided by two key questions: What to teach? and How to teach?
 
 What to Teach

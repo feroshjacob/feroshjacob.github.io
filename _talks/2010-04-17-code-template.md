@@ -3,7 +3,7 @@ title: "Code Template Inference Using Language Models"
 collection: talks
 type: "Conference proceedings talk"
 permalink: /talks/2010-04-17-code-template
-venue: "Annual Southeast Regional Conferenc"
+venue: "Annual Southeast Regional Conference"
 date: 2010-04-17
 location: "Oxford, MS"
 ---
