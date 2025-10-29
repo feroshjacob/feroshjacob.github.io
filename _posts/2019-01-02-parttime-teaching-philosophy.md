@@ -1,7 +1,7 @@
 ---
 title: 'Teaching Philosophy as a Part-Time Teacher'
 date: 2019-01-02
-permalink: /posts/2019/01/parttime-teaching-philosophy/
+permalink: /posts/2019/01/parttime-teaching-philosophy
 excerpt: Between 2017 and 2025, I consistently taught undergraduate or graduate courses in most semesters while balancing my teaching responsibilities with a full-time position in industry.
 tags:
   - teaching
