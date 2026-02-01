@@ -1,7 +1,7 @@
 ---
-title: 'Artificial Intelligent Retail Search is here!'
-date: 2025-10-30
-permalink: /posts/2025/10/30/artificial-intelligent-search-3
+title: 'Artificial Intelligent Retail Search is here!-In Progress'
+date: 2026-03-01
+permalink: /posts/2026/03/01/artificial-intelligent-search-3
 tags:
   - search
   - ai
