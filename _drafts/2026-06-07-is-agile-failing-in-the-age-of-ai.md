@@ -11,6 +11,7 @@ tags:
 excerpt: Agile transformed software development by adapting to changing requirements. But what happens when AI dramatically reduces the cost of implementation? Are we still optimizing for the right bottleneck?
 ---
 
+![AI and PI planning](/images/agile_and_ai.png)
 # Is Agile Failing in the Age of AI?
 
 Before you sharpen your pitchforks, let me clarify something.
@@ -145,6 +146,9 @@ Why are humans breaking work into tasks if agents immediately break it down agai
 Increasingly, it feels like we are maintaining two parallel planning systems.
 
 # The PI Planning Problem
+
+
+
 
 The biggest challenge may not be Scrum.
 
