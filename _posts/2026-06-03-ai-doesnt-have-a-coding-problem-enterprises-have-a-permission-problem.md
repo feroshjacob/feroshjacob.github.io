@@ -7,6 +7,8 @@ tags: [AI, Enterprise AI, Software Engineering, Organizational Design]
 excerpt: "What if the biggest obstacle to AI transformation isn't the technology, but the way we've organized our companies?"
 ---
 
+![Enterprises Have a Permission Problem](/images/permission-problem.png)
+
 Everyone is talking about AI productivity.
 
 Developers write code faster.
