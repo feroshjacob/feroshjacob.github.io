@@ -22,7 +22,7 @@ When an AI generates code, I can run it. The program either produces the desired
 
 For a long time, this made code generation feel fundamentally different from text generation.
 
-One of the earliest projects where I experienced this involved search query analysis for an automotive parts retailer.
+One of the earliest projects where I experienced this involved search query analysis for a retailer.
 
 The goal was to identify synonyms from search logs. Customers often search for the same part using different terminology, and improving synonym coverage can significantly improve search quality.
 
@@ -176,8 +176,10 @@ The difficult question is:
 
 > How do we know when we are done?
 
-This book explores that transition.
+Code generation is becoming abundant.
 
-The future of software is not primarily about generating more code.
+The scarce resource is clarity.
 
-It is about defining intent, evaluation criteria, and success conditions clearly enough that the implementation can be generated automatically.
+That realization kept appearing in project after project.
+
+The next post looks at one of the first places I encountered it: a website quality assessment tool where generating reports turned out to be easy, but defining correctness was surprisingly hard.
