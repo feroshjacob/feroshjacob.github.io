@@ -15,7 +15,7 @@ tags:
 excerpt: "Most of my interaction with coding agents became copying error messages from build systems and asking the agent to fix them. That raised an uncomfortable question: why was I in the loop at all?"
 ---
 
-![Application Generation Vision](/images/application-generation-part2.jpg)
+![Application Generation Vision](/images/application-generation-part2.png)
 
 In this series, I am exploring a simple idea:
 
