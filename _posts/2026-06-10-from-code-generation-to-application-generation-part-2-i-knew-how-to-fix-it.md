@@ -35,9 +35,7 @@ The hard problem was defining when the work was actually finished.
 
 Success criteria turned out to be more important than implementation.
 
-If you missed Part 1, you can read it here:
-
-https://feroshjacob.github.io/posts/2026/06/09/from-code-generation-to-application-generation-part-1-when-does-the-agent-stop
+If you missed Part 1, you can read it here: [From Code Generation to Application Generation, Part 1: When Does the Agent Stop?](https://feroshjacob.github.io/posts/2026/06/09/from-code-generation-to-application-generation-part-1-when-does-the-agent-stop)
 
 # Becoming a Human Error Transport Layer
 
