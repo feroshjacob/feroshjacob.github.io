@@ -13,8 +13,7 @@ tags:
   - ai agents
   - software validation
   - ai-assisted development
-header:
-  image: application-generation-part3.gif
+image: application-generation-part3.gif
 excerpt: As AI coding agents improved, the generated code became less interesting than the final application outcome. The question shifted from whether the code looked right to whether the application solved the problem.
 ---
 

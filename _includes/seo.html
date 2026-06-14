@@ -36,6 +36,17 @@
   {% assign seo_keywords = seo_keywords | concat: page.categories %}
 {% endif %}
 {% assign unique_keywords = seo_keywords | uniq %}
+{% assign seo_image = page.image | default: page.header.image | default: page.header.overlay_image | default: site.og_image %}
+{% if seo_image %}
+  {% assign seo_image_first_char = seo_image | slice: 0 %}
+  {% if seo_image contains "://" %}
+    {% assign seo_image_url = seo_image %}
+  {% elsif seo_image_first_char == "/" %}
+    {% assign seo_image_url = seo_image | prepend: seo_url %}
+  {% else %}
+    {% assign seo_image_url = seo_image | prepend: "/images/" | prepend: seo_url %}
+  {% endif %}
+{% endif %}
 <meta name="description" content="{{ seo_description }}">
 <meta name="robots" content="{{ page.robots | default: "index, follow, max-image-preview:large" }}">
 {% if unique_keywords.size > 0 %}
@@ -74,12 +85,9 @@
 <meta name="twitter:description" content="{{ seo_description }}">
 <meta name="twitter:url" content="{{ canonical_url }}">
 
-{% if page.header.image %}
+{% if seo_image_url %}
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="{% if page.header.image contains "://" %}{{ page.header.image }}{% else %}{{ page.header.image | prepend: "/images/" | prepend: seo_url }}{% endif %}">
-{% elsif site.og_image %}
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="{{ site.og_image | prepend: "/images/" | prepend: seo_url }}">
+  <meta name="twitter:image" content="{{ seo_image_url }}">
 {% else %}
   <meta name="twitter:card" content="summary">
 {% endif %}
@@ -158,7 +166,7 @@
       {% if page.date %}"datePublished": {{ page.date | date_to_xmlschema | jsonify }},{% endif %}
       "dateModified": {{ page.modified | default: page.date | date_to_xmlschema | jsonify }},
       {% if unique_keywords.size > 0 %}"keywords": {{ unique_keywords | join: ", " | jsonify }},{% endif %}
-      {% if page.header.image %}"image": {{ page.header.image | prepend: "/images/" | prepend: seo_url | jsonify }},{% elsif site.og_image %}"image": {{ site.og_image | prepend: "/images/" | prepend: seo_url | jsonify }},{% endif %}
+      {% if seo_image_url %}"image": {{ seo_image_url | jsonify }},{% endif %}
       "author": {
         "@type": "Person",
         "name": {{ site.name | jsonify }},
@@ -221,11 +229,7 @@
   <meta property="og:url" content="{{ canonical_url }}">
 {% endif %}
 
-{% if page.header.image %}
-  <meta property="og:image" content="{% if page.header.image contains "://" %}{{ page.header.image }}{% else %}{{ page.header.image | prepend: "/images/" | prepend: seo_url }}{% endif %}">
-{% elsif page.header.overlay_image %}
-  <meta property="og:image" content="{% if page.header.overlay_image contains "://" %}{{ page.header.overlay_image }}{% else %}{{ page.header.overlay_image | prepend: "/images/" | prepend: seo_url }}{% endif %}">
-{% elsif site.og_image %}
-  <meta property="og:image" content="{{ site.og_image | prepend: "/images/" | prepend: seo_url }}">
+{% if seo_image_url %}
+  <meta property="og:image" content="{{ seo_image_url }}">
 {% endif %}
 <!-- end Open Graph protocol -->
