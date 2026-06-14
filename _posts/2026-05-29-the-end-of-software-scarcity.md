@@ -2,12 +2,17 @@
 title: 'The End of Software Scarcity'
 date: 2026-05-29
 permalink: /posts/2026/05/29/the-end-of-software-scarcity
+categories:
+  - software-scarcity
 tags:
   - ai
   - software engineering
+  - ai-assisted development
   - entrepreneurship
   - startups
   - small business
+  - custom software
+  - software economics
 excerpt: For decades, organizations adapted themselves to software because software was expensive to build and maintain. AI-assisted development may reverse that relationship, making it practical for software to adapt to the unique needs of individual organizations.
 ---
 

@@ -2,12 +2,17 @@
 title: 'Is Agile Failing in the Age of AI?'
 date: 2026-06-07
 permalink: /posts/2026/06/07/is-agile-failing-in-the-age-of-ai
+categories:
+  - agile-ai
 tags:
   - ai
   - agile
   - software engineering
   - product development
   - engineering leadership
+  - ai-assisted development
+  - agile software development
+  - story points
 excerpt: Agile transformed software development by adapting to changing requirements. But what happens when AI dramatically reduces the cost of implementation? Are we still optimizing for the right bottleneck?
 ---
 
@@ -277,4 +282,3 @@ If that's true, then the next generation of software processes won't be optimize
 They'll be optimized for learning.
 
 And that may require us to rethink some of our most cherished Agile practices.
-

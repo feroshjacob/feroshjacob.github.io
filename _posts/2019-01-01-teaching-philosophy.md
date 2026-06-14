@@ -2,9 +2,13 @@
 title: 'Teaching philosophy'
 date: 2019-01-01
 permalink: /posts/2019/01/teaching-philosophy/
+categories:
+  - teaching
 tags:
   - teaching
   - teaching philosophy
+  - computer science education
+  - software engineering education
 excerpt: Teaching methods should be flexible, evolving based on the students, course content, and learning environment.
   
 ---
@@ -26,5 +30,4 @@ After defining these goals, I structure course material to introduce these conce
 How to Teach
 =======
 Teaching methods should be flexible, evolving based on the students, course content, and learning environment. For instance, to engage struggling or bored students, assignments and assessments may include both basic and challenging tasks, with the balance adjusted for each class. I believe a teacher must continually self-evaluate after each class and adapt teaching methods accordingly. Effective teaching is a dynamic process, shaped by mutual understanding between the teacher and the students.
-
 

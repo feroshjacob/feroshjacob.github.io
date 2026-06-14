@@ -2,12 +2,18 @@
 title: "The End of Software Scarcity, Part 2: Rosa's Story — Lead Workflow"
 date: 2026-06-15
 permalink: /posts/2026/06/15/the-end-of-software-scarcity-part-2-lead-workflow
+categories:
+  - software-scarcity
 tags:
   - ai
   - small business
   - software engineering
+  - ai-assisted development
   - entrepreneurship
   - workflow automation
+  - lead workflow
+  - customer acquisition
+  - local business
 excerpt: A website is only the front door. In this article, I explore how an AI-enabled conversation becomes part of a small operations system for leads, clients, jobs, reviews, videos, and ads.
 ---
 

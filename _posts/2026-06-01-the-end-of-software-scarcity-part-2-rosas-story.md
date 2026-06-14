@@ -2,11 +2,16 @@
 title: "The End of Software Scarcity: Rosa's Story"
 date: 2026-06-01
 permalink: /posts/2026/06/01/the-end-of-software-scarcity-part-2-rosas-story
+categories:
+  - software-scarcity
 tags:
   - ai
   - software engineering
+  - ai-assisted development
   - small business
   - entrepreneurship
+  - custom software
+  - local business
 excerpt: In my previous article, I argued that AI-assisted development may be bringing an end to software scarcity. This article tests that idea through a real-world project with a local small business owner.
 ---
 

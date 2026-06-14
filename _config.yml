@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Ferosh Jacob Ph.D."
+title                    : "Ferosh Jacob, Ph.D."
 title_separator          : "-"
 name                     : &name "Ferosh Jacob"
-description              : &description "Looking for the next Nullpointer Exception"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Ferosh Jacob is a software engineering and AI leader with a Ph.D. in computer science, focused on search, relevance, data science, and practical AI systems."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://feroshjacob.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -24,12 +24,12 @@ repository               : "feroshjacob/feroshjacob.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : #
+  name             : "Ferosh Jacob"
   pronouns         : # example: "she/her"  
-  bio              : #
+  bio              : "Software engineering and AI leader focused on search, relevance, data science, and practical AI systems."
   location         : "Atlanta"
-  employer         : #Genuine Auto Parts
-  uri              : feroshjacob.github.io
+  employer         : #
+  uri              : "https://feroshjacob.github.io"
   email            : "feroshjacob@gmail.com" 
 
   # Academic websites
@@ -142,14 +142,20 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_image                 : profile.png # Social media default site image
+og_description           : *description # Social media default site image description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type                   : Person # Person or Organization (defaults to Person)
+  name                   : "Ferosh Jacob" # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://www.linkedin.com/in/ferosh-jacob-03b8109"
+    - "https://github.com/feroshjacob"
+    - "https://scholar.google.com/citations?user=BHni1Y8AAAAJ&hl=en"
+    - "https://dl.acm.org/profile/81456613588"
+    - "https://dblp.uni-trier.de/pid/18/4463.html"
+    - "https://www.researchgate.net/profile/Ferosh_Jacob"
 
 
 # Analytics

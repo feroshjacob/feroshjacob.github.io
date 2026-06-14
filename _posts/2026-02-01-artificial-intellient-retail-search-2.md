@@ -2,10 +2,16 @@
 title: 'Artificial Intelligent Retail Search is here! (2) - The Data Science Era'
 date: 2026-02-01
 permalink: /posts/2026/02/01/artificial-intelligent-search-2
+categories:
+  - retail-search
 tags:
   - search
   - ai
-  - recipe search
+  - retail search
+  - ecommerce search
+  - search relevance
+  - query understanding
+  - data science
 excerpt: Moving beyond simple keyword matching. How the industry transitioned to hybrid systems, query understanding, and the "Builder's Era" of search relevance.
 ---
 

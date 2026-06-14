@@ -1,11 +1,29 @@
 ---
 permalink: /
-title: "From a Nullpointer Exception.."
+title: "Ferosh Jacob"
+description: "Ferosh Jacob is a software engineering and AI leader in Atlanta with a Ph.D. in computer science and experience in search, relevance, data science, big data, and practical AI systems."
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+## Software Engineering, Search, and Practical AI
+
+I am Ferosh Jacob, a software engineering and AI leader based in Atlanta. My work focuses on search relevance, data science, big data systems, machine learning, large language models, and the design, development, and maintenance of practical software systems.
+
+I hold a Ph.D. in computer science from The University of Alabama and an M.S. in computer science from Clarkson University. My academic work centered on software engineering, model-driven development, domain-specific languages, high-performance computing, and tool support for software maintenance.
+
+Professionally, I have worked across retail, healthcare, and employment domains, often with search technology teams building systems that connect users with relevant information, products, jobs, services, and answers. This site collects my writing, publications, talks, teaching, theses, and CV.
+
+### Expertise
+
+- Software engineering and software maintenance
+- Search relevance and search evaluation
+- Artificial intelligence, machine learning, and large language models
+- Data science, big data, and cloud-based data pipelines
+- Domain-specific languages and model-driven software development
+- High-performance computing and heterogeneous computing
 
 
 ### Beginning 

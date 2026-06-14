@@ -2,10 +2,16 @@
 title: 'Artificial Intelligent Retail Search is here! (1) - The Legacy & The Problem'
 date: 2026-01-31
 permalink: /posts/2026/01/31/artificial-intelligent-search-1
+categories:
+  - retail-search
 tags:
   - search
   - ai
   - retail search
+  - ecommerce search
+  - search relevance
+  - product discovery
+  - endeca
 excerpt: A look back at the "Black Box" era of retail search, why we moved away from it, and the fundamental tension between finding products and making money.
 ---
 

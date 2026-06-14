@@ -1,11 +1,16 @@
 ---
 title: "AI Doesn't Have a Coding Problem. Enterprises Have a Permission Problem."
 date: 2026-06-03
-tags: 
-  - AI
-  - Enterprise AI
-  - Software Engineering
-  - Organizational Design
+categories:
+  - enterprise-ai
+tags:
+  - ai
+  - enterprise ai
+  - software engineering
+  - organizational design
+  - ai transformation
+  - engineering leadership
+  - enterprise software
 excerpt: "What if the biggest obstacle to AI transformation isn't the technology, but the way we've organized our companies?"
 ---
 

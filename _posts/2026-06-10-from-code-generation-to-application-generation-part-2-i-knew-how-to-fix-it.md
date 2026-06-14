@@ -3,7 +3,7 @@ title: "From Code Generation to Application Generation, Part 2: I Knew How to Fi
 date: 2026-06-10
 permalink: /posts/2026/06/10/from-code-generation-to-application-generation-part-2-i-knew-how-to-fix-it
 categories:
-  - blog
+  - application-generation
 
 tags:
   - ai
@@ -11,6 +11,10 @@ tags:
   - code generation
   - application generation
   - model driven engineering
+  - ai agents
+  - software validation
+  - quality gates
+  - ai-assisted development
 
 excerpt: "Most of my interaction with coding agents became copying error messages from build systems and asking the agent to fix them. That raised an uncomfortable question: why was I in the loop at all?"
 ---

@@ -1,19 +1,15 @@
 ---
 layout: default
-title: Home
+title: Ferosh Jacob
+description: "Ferosh Jacob is a software engineering and AI leader focused on search relevance, data science, big data, and practical AI systems."
 permalink: /index/
+canonical: /
+robots: "noindex, follow"
+sitemap: false
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+## Ferosh Jacob
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Ferosh Jacob is a software engineering and AI leader focused on search relevance, data science, big data, machine learning, and practical AI systems.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
-
+For the main homepage, visit [feroshjacob.github.io](/).

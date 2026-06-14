@@ -2,12 +2,17 @@
 title: "From Code Generation to Application Generation, Part 1: When Does the Agent Stop?"
 date: 2026-06-09
 permalink: /posts/2026/06/09/from-code-generation-to-application-generation-part-1-when-does-the-agent-stop
+categories:
+  - application-generation
 tags:
   - ai
   - software engineering
   - code generation
   - application generation
   - model driven engineering
+  - ai agents
+  - software validation
+  - ai-assisted development
 excerpt: I initially trusted AI through code generation because code could be validated. What surprised me was discovering that the hardest problem was no longer implementation, but defining when the work was actually complete.
 ---
 
