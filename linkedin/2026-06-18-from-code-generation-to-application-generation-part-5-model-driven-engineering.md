@@ -2,7 +2,7 @@
 post_title: "From Code Generation to Application Generation, Part 5: Why I Ended Up Looking Back at Model-Driven Engineering"
 post_url: "https://feroshjacob.github.io/posts/2026/06/18/from-code-generation-to-application-generation-part-5-model-driven-engineering"
 post_slug: "2026-06-18-from-code-generation-to-application-generation-part-5-model-driven-engineering"
-linkedin_status: draft
+linkedin_status: "published"
 visibility: PUBLIC
 published: false
 hashtags:
@@ -11,6 +11,8 @@ hashtags:
   - ApplicationGeneration
   - ModelDrivenEngineering
   - AIAgents
+linkedin_post_urn: "urn:li:share:7473357409957232642"
+linkedin_published_at: "2026-06-18T12:54:15.183196+00:00"
 ---
 
 AI application generation feels new.
