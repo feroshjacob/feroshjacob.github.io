@@ -11,8 +11,11 @@ hashtags:
   - ApplicationGeneration
   - ModelDrivenEngineering
   - AIAgents
-linkedin_post_urn: "urn:li:share:7473357409957232642"
-linkedin_published_at: "2026-06-18T12:54:15.183196+00:00"
+linkedin_post_urn: "urn:li:share:7473360557388042240"
+linkedin_published_at: "2026-06-18T13:06:45.586074+00:00"
+linkedin_thumbnail_urn: "urn:li:image:D4E10AQHyM5OPH8CS5w"
+linkedin_replaces_post_urn: "urn:li:share:7473357409957232642"
+linkedin_reposted_at: "2026-06-18T13:06:45.586074+00:00"
 ---
 
 AI application generation feels new.
