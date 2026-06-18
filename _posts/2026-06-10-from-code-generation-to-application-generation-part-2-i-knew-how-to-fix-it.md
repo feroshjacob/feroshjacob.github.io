@@ -4,6 +4,8 @@ date: 2026-06-10
 permalink: /posts/2026/06/10/from-code-generation-to-application-generation-part-2-i-knew-how-to-fix-it
 categories:
   - application-generation
+series: application-generation
+series_order: 2
 
 tags:
   - ai

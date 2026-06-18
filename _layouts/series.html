@@ -1,0 +1,88 @@
+---
+layout: default
+---
+
+{% include base_path %}
+{% assign series_key = page.series_key %}
+{% assign series = site.data.series[series_key] %}
+{% assign series_posts = site.posts | where: "series", series_key | sort: "series_order" %}
+{% assign series_url = series.permalink | default: page.url | prepend: site.url %}
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+  <article class="page">
+    <div class="page__inner-wrap">
+      <header>
+        <h1 class="page__title">{{ series.title | default: page.title }}</h1>
+      </header>
+
+      <section class="page__content">
+        <p>{{ series.description | default: page.description }}</p>
+
+        {% if series.start_here %}
+          <h2>Start Here</h2>
+          <p>{{ series.start_here }}</p>
+        {% endif %}
+
+        {% if series.questions %}
+          <h2>Questions This Series Answers</h2>
+          <ul>
+            {% for question in series.questions %}
+              <li>{{ question }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+
+        {% if series.themes %}
+          <h2>Key Themes</h2>
+          <ul>
+            {% for theme in series.themes %}
+              <li>{{ theme }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+
+        {{ content }}
+
+        <h2>Articles in This Series</h2>
+        <ol>
+          {% for post in series_posts %}
+            <li>
+              <a href="{{ post.url | prepend: base_path }}">{{ post.title }}</a>
+              {% if post.excerpt %}
+                <p>{{ post.excerpt | markdownify | strip_html }}</p>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ol>
+
+        {% if series_posts.size == 0 %}
+          <p>No articles have been assigned to this series yet.</p>
+        {% endif %}
+      </section>
+    </div>
+  </article>
+</div>
+
+{% if series_posts.size > 0 %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": {{ series.title | default: page.title | jsonify }},
+  "description": {{ series.description | default: page.description | jsonify }},
+  "url": {{ series_url | jsonify }},
+  "itemListElement": [
+    {% for post in series_posts %}
+    {
+      "@type": "ListItem",
+      "position": {{ forloop.index }},
+      "url": {{ post.url | prepend: site.url | jsonify }},
+      "name": {{ post.title | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}

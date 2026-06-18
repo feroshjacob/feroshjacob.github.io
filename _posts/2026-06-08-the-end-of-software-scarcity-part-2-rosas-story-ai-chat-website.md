@@ -4,6 +4,8 @@ date: 2026-06-08
 permalink: /posts/2026/06/08/the-end-of-software-scarcity-part-2-website-ai-chat
 categories:
   - software-scarcity
+series: software-scarcity
+series_order: 3
 tags:
   - ai
   - small business

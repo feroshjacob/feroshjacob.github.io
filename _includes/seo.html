@@ -47,6 +47,9 @@
     {% assign seo_image_url = seo_image | prepend: "/images/" | prepend: seo_url %}
   {% endif %}
 {% endif %}
+{% if page.series %}
+  {% assign post_series = site.data.series[page.series] %}
+{% endif %}
 <meta name="description" content="{{ seo_description }}">
 <meta name="robots" content="{{ page.robots | default: "index, follow, max-image-preview:large" }}">
 {% if unique_keywords.size > 0 %}
@@ -167,6 +170,11 @@
       "dateModified": {{ page.modified | default: page.date | date_to_xmlschema | jsonify }},
       {% if unique_keywords.size > 0 %}"keywords": {{ unique_keywords | join: ", " | jsonify }},{% endif %}
       {% if seo_image_url %}"image": {{ seo_image_url | jsonify }},{% endif %}
+      {% if post_series %}"isPartOf": {
+        "@type": "CreativeWorkSeries",
+        "name": {{ post_series.title | jsonify }},
+        "url": {{ post_series.permalink | prepend: seo_url | jsonify }}
+      },{% endif %}
       "author": {
         "@type": "Person",
         "name": {{ site.name | jsonify }},

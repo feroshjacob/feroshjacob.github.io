@@ -4,6 +4,8 @@ date: 2026-06-15
 permalink: /posts/2026/06/15/the-end-of-software-scarcity-part-2-lead-workflow
 categories:
   - software-scarcity
+series: software-scarcity
+series_order: 4
 tags:
   - ai
   - small business

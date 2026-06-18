@@ -1,0 +1,54 @@
+application-generation:
+  title: "From Code Generation to Application Generation"
+  description: "A series on moving beyond AI code generation toward application generation, validation, outcomes, context management, and mission-driven software delivery."
+  permalink: "/series/application-generation/"
+  category: "application-generation"
+  image: "/images/code-2-application.png"
+  start_here: "Start with Part 1 to understand why code generation is only the first step; continue through validation, outcomes, and the human cost of managing many coding agents."
+  themes:
+    - "AI-assisted development"
+    - "Application generation"
+    - "Software validation"
+    - "Context management"
+    - "Mission-driven engineering"
+  questions:
+    - "What comes after AI code generation?"
+    - "How do we know when an AI-generated application is done?"
+    - "Why does validation become more important than reading every generated line of code?"
+    - "How does agent parallelism change the human role in software delivery?"
+
+software-scarcity:
+  title: "The End of Software Scarcity"
+  description: "A series about how AI-assisted development changes software economics, making custom software practical for small businesses and local workflows."
+  permalink: "/series/software-scarcity/"
+  category: "software-scarcity"
+  image: "/images/end-of-software-scarcity.png"
+  start_here: "Start with the thesis article, then follow Rosa's story from website creation to AI chat and lightweight lead workflow automation."
+  themes:
+    - "Software economics"
+    - "AI-assisted development"
+    - "Small business software"
+    - "Custom software"
+    - "Workflow automation"
+  questions:
+    - "What happens when software becomes cheap enough to adapt to a business?"
+    - "Can small businesses afford AI-enabled software workflows?"
+    - "How does a simple website become an operating system for customer acquisition?"
+
+retail-search:
+  title: "Artificial Intelligent Retail Search"
+  description: "A series on the evolution of retail search from lexical matching and black-box engines to search relevance, data science, query understanding, and AI search."
+  permalink: "/series/retail-search/"
+  category: "retail-search"
+  image: "/images/endeca.png"
+  start_here: "Start with the legacy retail search problem, then move into the data science era and the emerging role of AI in search relevance."
+  themes:
+    - "Retail search"
+    - "Search relevance"
+    - "Ecommerce search"
+    - "Query understanding"
+    - "AI search"
+  questions:
+    - "Why is retail search different from web search?"
+    - "How did retail search move from black-box engines to relevance engineering?"
+    - "What role will AI play in product discovery and search relevance?"

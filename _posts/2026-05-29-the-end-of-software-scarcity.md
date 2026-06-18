@@ -4,6 +4,8 @@ date: 2026-05-29
 permalink: /posts/2026/05/29/the-end-of-software-scarcity
 categories:
   - software-scarcity
+series: software-scarcity
+series_order: 1
 tags:
   - ai
   - software engineering

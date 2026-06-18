@@ -4,6 +4,8 @@ date: 2026-06-09
 permalink: /posts/2026/06/09/from-code-generation-to-application-generation-part-1-when-does-the-agent-stop
 categories:
   - application-generation
+series: application-generation
+series_order: 1
 tags:
   - ai
   - software engineering

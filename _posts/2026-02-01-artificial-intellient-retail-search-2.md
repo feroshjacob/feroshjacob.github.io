@@ -4,6 +4,8 @@ date: 2026-02-01
 permalink: /posts/2026/02/01/artificial-intelligent-search-2
 categories:
   - retail-search
+series: retail-search
+series_order: 2
 tags:
   - search
   - ai

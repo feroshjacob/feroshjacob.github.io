@@ -1,0 +1,29 @@
+{% if page.series %}
+  {% assign series_key = page.series %}
+  {% assign series = site.data.series[series_key] %}
+  {% assign series_posts = site.posts | where: "series", series_key | sort: "series_order" %}
+
+  {% if series %}
+    <aside class="notice">
+      <strong>Series:</strong>
+      <a href="{{ series.permalink | prepend: base_path }}">{{ series.title }}</a>
+      {% if page.series_order %}
+        <span> Part {{ page.series_order }}.</span>
+      {% endif %}
+
+      {% if series_posts.size > 1 %}
+        <ol>
+          {% for item in series_posts %}
+            <li>
+              {% if item.url == page.url %}
+                <strong>{{ item.title }}</strong>
+              {% else %}
+                <a href="{{ item.url | prepend: base_path }}">{{ item.title }}</a>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ol>
+      {% endif %}
+    </aside>
+  {% endif %}
+{% endif %}

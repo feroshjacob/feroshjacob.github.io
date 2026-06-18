@@ -4,6 +4,8 @@ date: 2026-06-11
 permalink: /posts/2026/06/11/from-code-generation-to-application-generation-part-3-why-i-stopped-looking-at-generated-code
 categories:
   - application-generation
+series: application-generation
+series_order: 3
 tags:
   - ai
   - software engineering

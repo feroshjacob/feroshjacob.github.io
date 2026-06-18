@@ -4,6 +4,8 @@ date: 2026-06-01
 permalink: /posts/2026/06/01/the-end-of-software-scarcity-part-2-rosas-story
 categories:
   - software-scarcity
+series: software-scarcity
+series_order: 2
 tags:
   - ai
   - software engineering

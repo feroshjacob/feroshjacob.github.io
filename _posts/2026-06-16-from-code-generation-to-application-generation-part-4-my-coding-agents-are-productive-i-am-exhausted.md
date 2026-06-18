@@ -4,6 +4,8 @@ date: 2026-06-16
 permalink: /posts/2026/06/16/from-code-generation-to-application-generation-part-4-my-coding-agents-are-productive-i-am-exhausted
 categories:
   - application-generation
+series: application-generation
+series_order: 4
 tags:
   - ai
   - software engineering
