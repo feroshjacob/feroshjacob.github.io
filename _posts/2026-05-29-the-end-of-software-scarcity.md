@@ -1,5 +1,5 @@
 ---
-title: 'The End of Software Scarcity'
+title: 'The End of Software Scarcity, Part 1: Why Software Can Adapt to the Business'
 date: 2026-05-29
 permalink: /posts/2026/05/29/the-end-of-software-scarcity
 categories:
@@ -18,9 +18,9 @@ tags:
 excerpt: For decades, organizations adapted themselves to software because software was expensive to build and maintain. AI-assisted development may reverse that relationship, making it practical for software to adapt to the unique needs of individual organizations.
 ---
 
-# The End of Software Scarcity
+# The End of Software Scarcity, Part 1: Why Software Can Adapt to the Business
 
-![The End of Software Scarcity](/images/end-of-software-scarcity.png)
+![The End of Software Scarcity, Part 1: Why Software Can Adapt to the Business](/images/end-of-software-scarcity.png)
 
 One of the least discussed consequences of AI may be the end of software scarcity.
 

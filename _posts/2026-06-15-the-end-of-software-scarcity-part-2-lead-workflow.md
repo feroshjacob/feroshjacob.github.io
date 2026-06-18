@@ -1,5 +1,5 @@
 ---
-title: "The End of Software Scarcity, Part 2: Rosa's Story — Lead Workflow"
+title: "The End of Software Scarcity, Part 4: Rosa's Story — Lead Workflow"
 date: 2026-06-15
 permalink: /posts/2026/06/15/the-end-of-software-scarcity-part-2-lead-workflow
 categories:

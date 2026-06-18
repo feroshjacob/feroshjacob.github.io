@@ -1,5 +1,5 @@
 ---
-title: "The End of Software Scarcity, Part 2: Rosa's Story — Website & AI Chat"
+title: "The End of Software Scarcity, Part 3: Rosa's Story — Website & AI Chat"
 date: 2026-06-08
 permalink: /posts/2026/06/08/the-end-of-software-scarcity-part-2-website-ai-chat
 categories:

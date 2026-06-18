@@ -1,5 +1,5 @@
 ---
-title: "The End of Software Scarcity: Rosa's Story"
+title: "The End of Software Scarcity, Part 2: Rosa's Story"
 date: 2026-06-01
 permalink: /posts/2026/06/01/the-end-of-software-scarcity-part-2-rosas-story
 categories:
