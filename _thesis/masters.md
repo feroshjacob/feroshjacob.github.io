@@ -23,5 +23,7 @@ Changes “4,” “5,” and “6” relate to parameter modifications:
 
 [Thesis](/files/ms_thesis.pdf)
 [Thesis TEX](/files/ms_thesis_tex.zip)
+[AI corrected thesis](/files/AI%20corrected%20thesis.pdf)
+[AI corrected thesis TEX](/files/AI%20corrected%20thesis.zip)
 [Slides](/files/ms_thesis_slides.pdf)
 [Slides TEX](/files/ms_thesis_slides_tex.zip)
