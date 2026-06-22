@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
+  <title id="title">Mission-Driven Engineering learning architecture</title>
+  <desc id="desc">Three project learning loops send reusable lessons into shared MDE memory, which returns context packs, validation strategy, launch packs, and skill updates to every project.</desc>
+  <defs>
+    <marker id="arrow-teal" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M 0 0 L 12 6 L 0 12 z" fill="#0f766e"/>
+    </marker>
+    <marker id="arrow-ink" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M 0 0 L 12 6 L 0 12 z" fill="#334155"/>
+    </marker>
+    <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#0f172a" flood-opacity="0.14"/>
+    </filter>
+    <style>
+      .bg { fill: #f8fafc; }
+      .panel { fill: #ffffff; stroke: #cbd5e1; stroke-width: 2; filter: url(#soft-shadow); }
+      .center { fill: #f0fdfa; stroke: #0f766e; stroke-width: 3; filter: url(#soft-shadow); }
+      .small { fill: #f8fafc; stroke: #cbd5e1; stroke-width: 1.5; }
+      .title { font-family: Arial, Helvetica, sans-serif; font-size: 34px; font-weight: 700; fill: #0f172a; }
+      .subtitle { font-family: Arial, Helvetica, sans-serif; font-size: 20px; fill: #475569; }
+      .heading { font-family: Arial, Helvetica, sans-serif; font-size: 23px; font-weight: 700; fill: #0f172a; }
+      .body { font-family: Arial, Helvetica, sans-serif; font-size: 17px; fill: #334155; }
+      .label { font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: 700; fill: #0f766e; }
+      .micro { font-family: Arial, Helvetica, sans-serif; font-size: 14px; fill: #475569; }
+      .arrow-teal { fill: none; stroke: #0f766e; stroke-width: 4; marker-end: url(#arrow-teal); }
+      .arrow-ink { fill: none; stroke: #334155; stroke-width: 3; marker-end: url(#arrow-ink); }
+      .loop { fill: none; stroke: #64748b; stroke-width: 3; marker-end: url(#arrow-ink); stroke-dasharray: 8 8; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1400" height="820"/>
+
+  <text class="title" x="700" y="62" text-anchor="middle">Mission-Driven Engineering Learning Architecture</text>
+  <text class="subtitle" x="700" y="96" text-anchor="middle">Every project learns locally. Reusable learning flows into MDE and returns as better context, validation, and skills.</text>
+
+  <rect class="center" x="455" y="245" width="490" height="285" rx="18"/>
+  <text class="heading" x="700" y="292" text-anchor="middle">Shared MDE Memory</text>
+  <text class="body" x="700" y="325" text-anchor="middle">Portfolio memory and operating discipline</text>
+  <rect class="small" x="505" y="352" width="180" height="44" rx="8"/>
+  <text class="micro" x="595" y="380" text-anchor="middle">Context packs</text>
+  <rect class="small" x="715" y="352" width="180" height="44" rx="8"/>
+  <text class="micro" x="805" y="380" text-anchor="middle">Issue signatures</text>
+  <rect class="small" x="505" y="415" width="180" height="44" rx="8"/>
+  <text class="micro" x="595" y="443" text-anchor="middle">Launch packs</text>
+  <rect class="small" x="715" y="415" width="180" height="44" rx="8"/>
+  <text class="micro" x="805" y="443" text-anchor="middle">Skill updates</text>
+  <text class="label" x="700" y="492" text-anchor="middle">New and existing learning becomes reusable project input</text>
+
+  <rect class="panel" x="70" y="165" width="330" height="210" rx="16"/>
+  <text class="heading" x="235" y="207" text-anchor="middle">MDE Platform</text>
+  <text class="body" x="105" y="247">Mission, memory, migration rules</text>
+  <text class="body" x="105" y="278">Generation: GEN-002</text>
+  <text class="body" x="105" y="309">Role: shared operating system</text>
+  <path class="loop" d="M 116 338 C 172 397 294 397 354 338"/>
+  <text class="micro" x="235" y="359" text-anchor="middle">mission -> validate -> learn</text>
+
+  <rect class="panel" x="1000" y="165" width="330" height="210" rx="16"/>
+  <text class="heading" x="1165" y="207" text-anchor="middle">Website Assessment</text>
+  <text class="body" x="1035" y="247">Public website analysis</text>
+  <text class="body" x="1035" y="278">Generation: 44</text>
+  <text class="body" x="1035" y="309">Role: deployed MDE product</text>
+  <path class="loop" d="M 1046 338 C 1102 397 1224 397 1284 338"/>
+  <text class="micro" x="1165" y="359" text-anchor="middle">mission -> validate -> learn</text>
+
+  <rect class="panel" x="535" y="590" width="330" height="180" rx="16"/>
+  <text class="heading" x="700" y="632" text-anchor="middle">Build Brief Generator</text>
+  <text class="body" x="570" y="672">Client launch pack generator</text>
+  <text class="body" x="570" y="703">Generation: 0</text>
+  <text class="body" x="570" y="734">Role: new MDE implementation</text>
+
+  <path class="arrow-teal" d="M 400 275 C 445 290 444 340 455 360"/>
+  <text class="micro" x="432" y="256" text-anchor="middle">lessons</text>
+
+  <path class="arrow-teal" d="M 1000 275 C 955 290 956 340 945 360"/>
+  <text class="micro" x="968" y="256" text-anchor="middle">outbox</text>
+
+  <path class="arrow-teal" d="M 700 590 C 700 562 700 548 700 530"/>
+  <text class="micro" x="748" y="566">findings</text>
+
+  <path class="arrow-ink" d="M 455 440 C 410 470 382 430 355 383"/>
+  <text class="micro" x="388" y="488" text-anchor="middle">context packs</text>
+
+  <path class="arrow-ink" d="M 945 440 C 990 470 1018 430 1045 383"/>
+  <text class="micro" x="1014" y="488" text-anchor="middle">validation strategy</text>
+
+  <path class="arrow-ink" d="M 612 530 C 597 553 594 568 594 590"/>
+  <text class="micro" x="552" y="561" text-anchor="middle">launch pack</text>
+
+  <path class="arrow-ink" d="M 788 530 C 803 553 806 568 806 590"/>
+  <text class="micro" x="850" y="561" text-anchor="middle">skill updates</text>
+
+  <rect class="small" x="80" y="670" width="360" height="66" rx="12"/>
+  <text class="label" x="260" y="697" text-anchor="middle">Stop condition</text>
+  <text class="micro" x="260" y="720" text-anchor="middle">Two independent fresh validation passes after mission updates</text>
+
+  <rect class="small" x="960" y="670" width="360" height="66" rx="12"/>
+  <text class="label" x="1140" y="697" text-anchor="middle">Human role</text>
+  <text class="micro" x="1140" y="720" text-anchor="middle">Specify outcomes, judge evidence, approve changes, manage attention</text>
+</svg>
