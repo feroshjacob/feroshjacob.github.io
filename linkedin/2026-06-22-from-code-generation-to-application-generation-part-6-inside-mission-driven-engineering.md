@@ -2,7 +2,7 @@
 post_title: "From Code Generation to Application Generation, Part 6: Inside Mission-Driven Engineering"
 post_url: "https://feroshjacob.github.io/posts/2026/06/22/from-code-generation-to-application-generation-part-6-inside-mission-driven-engineering"
 post_slug: "2026-06-22-from-code-generation-to-application-generation-part-6-inside-mission-driven-engineering"
-linkedin_status: ready
+linkedin_status: "published"
 visibility: PUBLIC
 post_image: "/images/application-generation-part6-mde-architecture.png"
 hashtags:
@@ -11,6 +11,9 @@ hashtags:
   - ApplicationGeneration
   - MissionDrivenEngineering
   - AIAgents
+linkedin_post_urn: "urn:li:share:7474663763678314496"
+linkedin_published_at: "2026-06-22T03:25:14.133142+00:00"
+linkedin_thumbnail_urn: "urn:li:image:D4E10AQE3Sz_1hWZm1w"
 ---
 
 AI coding agents can generate code.
