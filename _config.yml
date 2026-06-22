@@ -188,6 +188,7 @@ exclude:
   - Gemfile
   - Gruntfile.js
   - gulpfile.js
+  - linkedin
   - LICENSE
   - local
   - log
