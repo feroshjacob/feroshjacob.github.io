@@ -2,7 +2,7 @@
 post_title: "From Code Generation to Application Generation, Part 7: How Mission-Driven Engineering Happened"
 post_url: "https://feroshjacob.github.io/posts/2026/06/24/from-code-generation-to-application-generation-part-7-how-mission-driven-engineering-happened"
 post_slug: "2026-06-24-from-code-generation-to-application-generation-part-7-how-mission-driven-engineering-happened"
-linkedin_status: ready
+linkedin_status: "published"
 visibility: PUBLIC
 post_image: "/images/application-generation-part7-outcome-layers.png"
 hashtags:
@@ -11,6 +11,9 @@ hashtags:
   - ApplicationGeneration
   - MissionDrivenEngineering
   - AIAgents
+linkedin_post_urn: "urn:li:share:7475603528221245441"
+linkedin_published_at: "2026-06-24T17:39:31.446913+00:00"
+linkedin_thumbnail_urn: "urn:li:image:D4E10AQE7foOo3fHALA"
 ---
 
 Coding agents made me faster.
