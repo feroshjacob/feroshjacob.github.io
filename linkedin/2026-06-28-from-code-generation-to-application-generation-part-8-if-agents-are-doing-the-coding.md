@@ -2,7 +2,7 @@
 post_title: "From Code Generation to Application Generation, Part 8: If Agents Are Doing the Coding, What Am I Doing?"
 post_url: "https://feroshjacob.github.io/posts/2026/06/28/from-code-generation-to-application-generation-part-8-if-agents-are-doing-the-coding"
 post_slug: "2026-06-28-from-code-generation-to-application-generation-part-8-if-agents-are-doing-the-coding"
-linkedin_status: ready
+linkedin_status: "published"
 visibility: PUBLIC
 post_image: "/images/application-generation-part8-future-of-work-v2.png"
 hashtags:
@@ -12,6 +12,9 @@ hashtags:
   - SmallBusiness
   - NonprofitTech
   - AIAgents
+linkedin_post_urn: "urn:li:share:7476872208573726720"
+linkedin_published_at: "2026-06-28T05:40:48.423846+00:00"
+linkedin_thumbnail_urn: "urn:li:image:D4E10AQG8rpWtVt77KA"
 ---
 
 If coding agents are doing more of the coding, what are engineers doing?
