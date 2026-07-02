@@ -2,7 +2,7 @@
 post_title: "Self-Learning Agent-Based Retail Search, Part 1: Why Retail Search Is Harder Than It Looks"
 post_url: "https://feroshjacob.github.io/posts/2026/07/02/self-learning-agent-based-retail-search-part-1-why-retail-search-is-harder-than-it-looks"
 post_slug: "2026-07-02-self-learning-agent-based-retail-search-part-1-why-retail-search-is-harder-than-it-looks"
-linkedin_status: ready
+linkedin_status: "published"
 visibility: PUBLIC
 post_image: "/images/self-learning-agent-based-retail-search-part-1.png"
 hashtags:
@@ -12,6 +12,9 @@ hashtags:
   - Ecommerce
   - AIAgents
   - MissionDrivenEngineering
+linkedin_post_urn: "urn:li:share:7478334388548661248"
+linkedin_published_at: "2026-07-02T06:30:59.288244+00:00"
+linkedin_thumbnail_urn: "urn:li:image:D4E10AQGG7tZeZdKrSg"
 ---
 
 Retail search is harder than it looks because relevance is only the beginning.
