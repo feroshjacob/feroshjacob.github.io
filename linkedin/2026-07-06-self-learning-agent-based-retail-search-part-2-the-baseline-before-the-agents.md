@@ -2,7 +2,7 @@
 post_title: "Self-Learning Agent-Based Retail Search, Part 2: The Baseline Before the Agents"
 post_url: "https://feroshjacob.github.io/posts/2026/07/06/self-learning-agent-based-retail-search-part-2-the-baseline-before-the-agents"
 post_slug: "2026-07-06-self-learning-agent-based-retail-search-part-2-the-baseline-before-the-agents"
-linkedin_status: ready
+linkedin_status: "published"
 visibility: PUBLIC
 post_image: "/images/self-learning-agent-based-retail-search-part-2-cranfield-baseline.png"
 hashtags:
@@ -12,6 +12,9 @@ hashtags:
   - OpenSearch
   - AIAgents
   - MissionDrivenEngineering
+linkedin_post_urn: "urn:li:share:7479726321498140673"
+linkedin_published_at: "2026-07-06T02:42:01.886396+00:00"
+linkedin_thumbnail_urn: "urn:li:image:D4E10AQEHfDlGo1jbtg"
 ---
 
 The first useful result of self-learning search engineering is not a clever model. It is a measurable baseline.
