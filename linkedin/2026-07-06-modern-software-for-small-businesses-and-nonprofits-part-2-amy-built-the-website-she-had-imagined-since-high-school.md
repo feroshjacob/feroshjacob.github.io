@@ -2,7 +2,7 @@
 post_title: "MS-SBN, Part 2: Amy Turned a High-School Dream Into a Website"
 post_url: "https://feroshjacob.github.io/posts/2026/07/06/modern-software-for-small-businesses-and-nonprofits-part-2-amy-built-the-website-she-had-imagined-since-high-school"
 post_slug: "2026-07-06-modern-software-for-small-businesses-and-nonprofits-part-2-amy-built-the-website-she-had-imagined-since-high-school"
-linkedin_status: ready
+linkedin_status: "published"
 visibility: PUBLIC
 post_image: "/images/amy-givens-myamy-designs-remodeling.png"
 hashtags:
@@ -11,6 +11,9 @@ hashtags:
   - SoftwareEngineering
   - WebDevelopment
   - Remodeling
+linkedin_post_urn: "urn:li:share:7480740071403540480"
+linkedin_published_at: "2026-07-08T21:50:18.731208+00:00"
+linkedin_thumbnail_urn: "urn:li:image:D4E10AQEisgAJCpG-HA"
 ---
 
 Amy Givens had owned the MyAmy Designs domain since high school.
