@@ -12,9 +12,11 @@ hashtags:
   - OpenSearch
   - AIAgents
   - MissionDrivenEngineering
-linkedin_post_urn: "urn:li:share:7481415703259058177"
-linkedin_published_at: "2026-07-10T18:35:01.881816+00:00"
-linkedin_thumbnail_urn: "urn:li:image:D4E10AQHOmckv7zE_fg"
+linkedin_post_urn: "urn:li:share:7481423420031696896"
+linkedin_published_at: "2026-07-10T19:05:42.183636+00:00"
+linkedin_thumbnail_urn: "urn:li:image:D4E10AQFrkKlq8I4yFQ"
+linkedin_replaces_post_urn: "urn:li:share:7481415703259058177"
+linkedin_reposted_at: "2026-07-10T19:05:42.183636+00:00"
 ---
 
 In my experience, this would have been a quarter's roadmap for a core search team of 10-15 people. An AI agent did it in six days — and the most interesting win came from a technique almost nobody ships in production.
@@ -25,7 +27,7 @@ The surprise winner was pseudo-relevance feedback — a decades-old IR textbook 
 
 Then the improvements ran out. The last refinement was worth two tenths of a percent, and 27 of 225 queries still find nothing relevant — because they use words their answer documents never use. That is the lexical ceiling, and it is measurable. Part 4 is about breaking it.
 
+#AI #RetailSearch #SearchRelevance #OpenSearch #AIAgents #MissionDrivenEngineering
+
 Permanent link:
 https://feroshjacob.github.io/posts/2026/07/10/self-learning-agent-based-retail-search-part-3-failure-driven-bm25-and-the-lexical-ceiling
-
-#AI #RetailSearch #SearchRelevance #OpenSearch #AIAgents #MissionDrivenEngineering
