@@ -2,7 +2,7 @@
 post_title: "SLAB-RS, Part 3: The Agent Climbs Keyword Search to Its Ceiling"
 post_url: "https://feroshjacob.github.io/posts/2026/07/10/self-learning-agent-based-retail-search-part-3-failure-driven-bm25-and-the-lexical-ceiling"
 post_slug: "2026-07-10-self-learning-agent-based-retail-search-part-3-failure-driven-bm25-and-the-lexical-ceiling"
-linkedin_status: "ready"
+linkedin_status: "published"
 visibility: PUBLIC
 post_image: "/images/self-learning-agent-based-retail-search-part-3-keyword-ceiling.png"
 hashtags:
@@ -12,6 +12,9 @@ hashtags:
   - OpenSearch
   - AIAgents
   - MissionDrivenEngineering
+linkedin_post_urn: "urn:li:share:7481415703259058177"
+linkedin_published_at: "2026-07-10T18:35:01.881816+00:00"
+linkedin_thumbnail_urn: "urn:li:image:D4E10AQHOmckv7zE_fg"
 ---
 
 In my experience, this would have been a quarter's roadmap for a core search team of 10-15 people. An AI agent did it in six days — and the most interesting win came from a technique almost nobody ships in production.
