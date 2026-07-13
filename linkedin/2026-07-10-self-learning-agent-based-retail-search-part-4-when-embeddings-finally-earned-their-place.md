@@ -2,7 +2,7 @@
 post_title: "SLAB-RS, Part 4: The Agent Breaks Its Ceiling with Embeddings"
 post_url: "https://feroshjacob.github.io/posts/2026/07/10/self-learning-agent-based-retail-search-part-4-when-embeddings-finally-earned-their-place"
 post_slug: "2026-07-10-self-learning-agent-based-retail-search-part-4-when-embeddings-finally-earned-their-place"
-linkedin_status: ready
+linkedin_status: "published"
 visibility: PUBLIC
 post_image: "/images/self-learning-agent-based-retail-search-part-4-embeddings-break-ceiling.png"
 hashtags:
@@ -12,6 +12,9 @@ hashtags:
   - Embeddings
   - OpenSearch
   - AIAgents
+linkedin_post_urn: "urn:li:share:7482282883311759361"
+linkedin_published_at: "2026-07-13T04:00:53.725460+00:00"
+linkedin_thumbnail_urn: "urn:li:image:D4E10AQFDaghQy-tjNA"
 ---
 
 An 8-billion-parameter language model's embeddings scored five times worse than random vectors. That failure is my favorite result in Part 4 of the SLAB-RS series — because it is what makes the eventual win believable.
