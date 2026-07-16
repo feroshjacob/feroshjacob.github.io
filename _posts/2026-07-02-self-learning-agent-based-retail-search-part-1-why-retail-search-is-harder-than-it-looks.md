@@ -6,6 +6,7 @@ categories:
   - self-learning-agent-based-retail-search
 series: self-learning-agent-based-retail-search
 series_order: 1
+phase: introduction
 tags:
   - retail search
   - ecommerce search
