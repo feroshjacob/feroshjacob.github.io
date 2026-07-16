@@ -45,17 +45,71 @@ layout: default
 
         {{ content }}
 
-        <h2>Articles in This Series</h2>
-        <ol>
-          {% for post in series_posts %}
-            <li>
-              <a href="{{ post.url | prepend: base_path }}">{{ post.title }}</a>
-              {% if post.excerpt %}
-                <p>{{ post.excerpt | markdownify | strip_html }}</p>
+        {% if series.phases %}
+          <h2>Articles by Phase</h2>
+          {% if series.phases_intro %}
+            <p>{{ series.phases_intro }}</p>
+          {% endif %}
+
+          {% assign phased_count = 0 %}
+          {% for phase in series.phases %}
+            {% assign phase_posts = series_posts | where: "phase", phase.key %}
+            {% assign phased_count = phased_count | plus: phase_posts.size %}
+
+            <div class="series-phase" style="margin: 1.75em 0; padding-left: 1em; border-left: 4px solid {% if phase.status == 'Complete' %}#1E9E7E{% elsif phase.status == 'In progress' %}#4A6FB5{% else %}#D8D3C4{% endif %};">
+              <h3 style="margin: 0 0 0.25em;">
+                {{ phase.title }}
+                <span class="series-phase__status" style="margin-left: 0.5em; font-size: 0.65em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; vertical-align: middle; padding: 0.2em 0.6em; border-radius: 1em; color: #fff; background: {% if phase.status == 'Complete' %}#1E9E7E{% elsif phase.status == 'In progress' %}#4A6FB5{% else %}#9A958A{% endif %};">{{ phase.status }}</span>
+              </h3>
+
+              {% if phase.summary %}
+                <p style="margin: 0.35em 0 0.6em;">{{ phase.summary }}</p>
               {% endif %}
-            </li>
+
+              {% if phase_posts.size > 0 %}
+                <ol>
+                  {% for post in phase_posts %}
+                    <li>
+                      <a href="{{ post.url | prepend: base_path }}">{{ post.title }}</a>
+                      {% if post.excerpt %}
+                        <p>{{ post.excerpt | markdownify | strip_html }}</p>
+                      {% endif %}
+                    </li>
+                  {% endfor %}
+                </ol>
+              {% else %}
+                <p><em>Not written yet — this phase is {{ phase.status | downcase }}.</em></p>
+              {% endif %}
+            </div>
           {% endfor %}
-        </ol>
+
+          {% assign unphased = series_posts | where_exp: "post", "post.phase == nil" %}
+          {% if unphased.size > 0 %}
+            <h3>More in This Series</h3>
+            <ol>
+              {% for post in unphased %}
+                <li>
+                  <a href="{{ post.url | prepend: base_path }}">{{ post.title }}</a>
+                  {% if post.excerpt %}
+                    <p>{{ post.excerpt | markdownify | strip_html }}</p>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ol>
+          {% endif %}
+        {% else %}
+          <h2>Articles in This Series</h2>
+          <ol>
+            {% for post in series_posts %}
+              <li>
+                <a href="{{ post.url | prepend: base_path }}">{{ post.title }}</a>
+                {% if post.excerpt %}
+                  <p>{{ post.excerpt | markdownify | strip_html }}</p>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ol>
+        {% endif %}
 
         {% if series_posts.size == 0 %}
           <p>No articles have been assigned to this series yet.</p>
