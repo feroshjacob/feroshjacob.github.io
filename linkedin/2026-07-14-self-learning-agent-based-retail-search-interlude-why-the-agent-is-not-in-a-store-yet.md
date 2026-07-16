@@ -2,7 +2,7 @@
 post_title: "SLAB-RS, Interlude: Why the Agent Is Not in a Store Yet"
 post_url: "https://feroshjacob.github.io/posts/2026/07/14/self-learning-agent-based-retail-search-interlude-why-the-agent-is-not-in-a-store-yet"
 post_slug: "2026-07-14-self-learning-agent-based-retail-search-interlude-why-the-agent-is-not-in-a-store-yet"
-linkedin_status: "ready"
+linkedin_status: "published"
 visibility: PUBLIC
 post_image: "/images/self-learning-agent-based-retail-search-interlude-road-to-retail.png"
 hashtags:
@@ -12,6 +12,9 @@ hashtags:
   - SearchRelevance
   - OpenSearch
   - AIAgents
+linkedin_post_urn: "urn:li:share:7483374444674146305"
+linkedin_published_at: "2026-07-16T04:18:22.359739+00:00"
+linkedin_thumbnail_urn: "urn:li:image:D4D10AQGZnKbuP_hqRA"
 ---
 
 Four articles into a series called Self-Learning Agent-Based Retail Search, there is not a single product. No store. Just 1,400 aeronautics abstracts from the 1960s and an agent that got slightly better at ranking them. That complaint is fair, and this interlude answers it.
