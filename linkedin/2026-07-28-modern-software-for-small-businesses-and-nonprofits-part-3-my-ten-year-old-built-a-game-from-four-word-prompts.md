@@ -2,10 +2,13 @@
 post_title: "MS-SBN, Part 3: My Ten-Year-Old Built a Video Game From Four-Word Prompts"
 post_url: "https://feroshjacob.github.io/posts/2026/07/28/modern-software-for-small-businesses-and-nonprofits-part-3-my-ten-year-old-built-a-game-from-four-word-prompts"
 post_slug: "2026-07-28-modern-software-for-small-businesses-and-nonprofits-part-3-my-ten-year-old-built-a-game-from-four-word-prompts"
-linkedin_status: ready
+linkedin_status: published
 post_type: video
 visibility: PUBLIC
 post_image: "/images/themathaigame-mathai-gameplay.gif"
+linkedin_post_urn: "urn:li:ugcPost:7488078711301480448"
+linkedin_video_urn: "urn:li:video:D5610AQE6cfeIIDi2NQ"
+linkedin_published_at: "2026-07-29T04:08:32Z"
 hashtags:
   - AI
   - MissionDrivenEngineering
