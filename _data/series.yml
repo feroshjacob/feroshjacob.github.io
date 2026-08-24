@@ -113,3 +113,22 @@ retail-search:
     - "Why is retail search different from web search?"
     - "How did retail search move from black-box engines to relevance engineering?"
     - "What role will AI play in product discovery and search relevance?"
+
+cpu-vs-gpu-battle:
+  title: "CPU vs GPU Battle"
+  description: "A recurring experiment: take a real problem, solve it first the easy, CPU-friendly way, then bring in the GPU and deep learning — and keep an honest scorecard each round. The problem changes from post to post; the tension between the mature CPU toolchain and the raw power of the GPU stays the same."
+  permalink: "/series/cpu-vs-gpu-battle/"
+  category: "cpu-vs-gpu-battle"
+  image: "/images/cpu-vs-gpu-battle.png"
+  start_here: "This is an open-ended series about the battle itself, not any single problem. Start with Part 1 to see the format in action, and expect more problems to enter the ring over time."
+  themes:
+    - "CPU versus GPU tradeoffs"
+    - "On-device machine learning"
+    - "Classical methods versus deep learning"
+    - "Coding agents and the new cost of optimization"
+    - "Honest benchmarking"
+  questions:
+    - "When is the GPU actually worth it, and when does the mature CPU toolchain win?"
+    - "How have coding agents changed the economics of GPU optimization?"
+    - "What does an honest, on-device scorecard look like for a real problem?"
+    - "Where does classical, CPU-friendly engineering still beat deep learning?"
