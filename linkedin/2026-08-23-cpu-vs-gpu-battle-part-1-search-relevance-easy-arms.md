@@ -2,7 +2,7 @@
 post_title: "CPU vs GPU battle, Round 1: the agents brought the GPU"
 post_url: "https://feroshjacob.github.io/posts/2026/08/23/cpu-vs-gpu-battle-part-1-search-relevance-easy-arms"
 post_slug: "2026-08-23-cpu-vs-gpu-battle-part-1-search-relevance-easy-arms"
-linkedin_status: ready
+linkedin_status: "published"
 post_type: image
 visibility: PUBLIC
 post_image: "/images/cpu-vs-gpu-battle-part-1.png"
@@ -12,6 +12,9 @@ hashtags:
   - OnDeviceAI
   - LLM
   - MLEngineering
+linkedin_post_urn: "urn:li:share:7497525646257123328"
+linkedin_published_at: "2026-08-24T05:30:11.607521+00:00"
+linkedin_thumbnail_urn: "urn:li:image:D4E10AQH4m2sFIGFa6g"
 ---
 
 I'm starting a new series: CPU vs GPU Battle.
