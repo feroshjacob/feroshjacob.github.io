@@ -2,7 +2,7 @@
 post_title: "CPU vs GPU battle, Round 1: train the judge, don't prompt it"
 post_url: "https://feroshjacob.github.io/posts/2026/08/29/cpu-vs-gpu-battle-part-2-train-the-judge"
 post_slug: "2026-08-29-cpu-vs-gpu-battle-part-2-train-the-judge"
-linkedin_status: ready
+linkedin_status: "published"
 post_type: image
 visibility: PUBLIC
 post_image: "/images/cpu-vs-gpu-battle-part-2.png"
@@ -12,6 +12,9 @@ hashtags:
   - FineTuning
   - CrossEncoder
   - OnDeviceAI
+linkedin_post_urn: "urn:li:share:7500039218459525120"
+linkedin_published_at: "2026-08-31T03:58:13.982554+00:00"
+linkedin_thumbnail_urn: "urn:li:image:D4E10AQHndm-WOgoStA"
 ---
 
 In Part 1, I prompted a general-purpose LLM to grade e-commerce search relevance and watched it miscalibrate. This round I stop prompting and train the judge.
