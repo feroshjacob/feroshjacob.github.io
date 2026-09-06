@@ -2,7 +2,7 @@
 post_title: "CPU vs GPU battle, Round 1: adapt the generalist, read the logits"
 post_url: "https://feroshjacob.github.io/posts/2026/09/06/cpu-vs-gpu-battle-part-3-adapt-the-generalist"
 post_slug: "2026-09-06-cpu-vs-gpu-battle-part-3-adapt-the-generalist"
-linkedin_status: "draft"
+linkedin_status: "published"
 post_type: image
 visibility: PUBLIC
 post_image: "/images/cpu-vs-gpu-battle-part-3.png"
@@ -12,6 +12,9 @@ hashtags:
   - LoRA
   - FineTuning
   - OnDeviceAI
+linkedin_post_urn: "urn:li:share:7502506311507435520"
+linkedin_published_at: "2026-09-06T23:21:34.958012+00:00"
+linkedin_thumbnail_urn: "urn:li:image:D4E10AQHaY6sBNQhDVg"
 ---
 
 Part 1 prompted a generalist and watched it miscalibrate. Part 2 trained a specialist that won in-domain but leaned on its training data. This round tries the third thing: keep the generalist, but stop prompting it.
