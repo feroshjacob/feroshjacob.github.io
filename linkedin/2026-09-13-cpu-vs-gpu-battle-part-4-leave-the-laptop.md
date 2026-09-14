@@ -14,7 +14,7 @@ hashtags:
   - Benchmarking
 ---
 
-Three parts of this series ran on one 16 GB laptop, and every arm landed in the same narrow band — nothing past 0.5 QWK. Which leaves an obvious suspect: maybe the ceiling was never the task. Maybe it was just the machine.
+Three parts of this series ran on one 16 GB laptop, and nothing broke 0.5 QWK — a lexical floor at 0.222, then every learned or prompted arm somewhere between 0.24 and 0.49. Which leaves an obvious suspect: maybe the ceiling was never the task. Maybe it was just the machine.
 
 So for the final part of Round 1, I left the laptop. Same 3,000 held-out ESCI pairs, same 3,000 WANDS pairs, same system prompt (verified byte-for-byte by sha256, not "looks the same"), same parser, same QWK implementation cross-checked to 1e-9 against the original. Two things changed and only two: the model (3B → Qwen2.5-7B-Instruct) and the hardware (laptop → a datacenter NVIDIA GPU on the National Research Platform, served by vLLM).
 

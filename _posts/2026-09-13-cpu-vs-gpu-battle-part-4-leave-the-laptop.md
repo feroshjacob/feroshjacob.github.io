@@ -17,7 +17,7 @@ image: /images/cpu-vs-gpu-battle-part-4.png
 excerpt: "Three rounds of this experiment lived on a 16 GB laptop and nothing broke 0.5 QWK - a lexical floor at 0.222, and every learned or prompted arm crowded between 0.24 and 0.49. So we left the machine: the same prompt, the same parser, the same 3,000 held-out pairs, handed to a 7B judge on a datacenter GPU. It scored ESCI QWK 0.361 and WANDS 0.354 - better than the 3B it scaled up from, and still inside the same band. The ceiling is the task, not the model size. The result is now a poster at SCD 2026."
 ---
 
-![Architecture of the Part 4 datacenter-GPU arm: the same (query + product title) pairs and the same byte-for-byte system prompt from Part 1's Arm B are gzipped into Kubernetes ConfigMaps and shipped to a National Research Platform GPU node, where vLLM serves Qwen2.5-7B-Instruct; the generated JSON goes through the identical ported parser and the identical QWK formula, and the scoreboard underneath plots all five arms on one QWK axis, showing the learned and prompted arms crowded into the same narrow 0.3-0.5 band and nothing breaking 0.5, regardless of whether the arm ran on a laptop CPU, a laptop GPU, or a datacenter GPU](/images/cpu-vs-gpu-battle-part-4.png)
+![Architecture of the Part 4 datacenter-GPU arm: the same (query + product title) pairs and the same byte-for-byte system prompt from Part 1's Arm B are gzipped into Kubernetes ConfigMaps and shipped to a National Research Platform GPU node, where vLLM serves Qwen2.5-7B-Instruct; the generated JSON goes through the identical ported parser and the identical QWK formula, and the scoreboard underneath plots all five arms on one QWK axis, showing a lexical floor near 0.22 and the learned and prompted arms spread between roughly 0.24 and 0.49, with nothing breaking 0.5, regardless of whether the arm ran on a laptop CPU, a laptop GPU, or a datacenter GPU](/images/cpu-vs-gpu-battle-part-4.png)
 
 *Part 4, and the last part of Round 1. Part 1 prompted a small generalist and watched it
 miscalibrate. Part 2 trained a specialist that won in-domain. Part 3 adapted a generalist
@@ -28,10 +28,12 @@ datacenter GPU - to answer the question the series has been circling since Part 
 ## The Short Version
 
 **Nothing in this experiment has broken 0.5 QWK** against independent human labels, and
-almost everything crowds into the same narrow band. That is the whole shape of Round 1: a
-lexical floor at 0.222, a prompted 3B at 0.288, a fine-tuned cross-encoder at 0.360, a
-LoRA-adapted generative model at 0.353 - and the single best number anywhere, 0.486, out
-of domain. Four methods that share nothing landed within a few hundredths of each other.
+every learned or prompted arm has landed somewhere between 0.24 and 0.49. That is the
+whole shape of Round 1: a lexical floor at 0.222, a prompted 3B at 0.288, a fine-tuned
+cross-encoder at 0.360, a LoRA-adapted generative model at 0.353 - and the single best
+number anywhere, 0.486, out of domain. Four methods that share nothing all landed under
+the same 0.5 ceiling, spread across roughly a quarter of the scale rather than clustered
+together.
 
 Which leaves one obvious suspect. Every one of those arms was **laptop-bound by design**.
 Maybe the ceiling was never the problem. Maybe it was the machine.
@@ -46,7 +48,7 @@ The answer:
 
 - **ESCI QWK 0.361** (95% CI 0.333-0.389), **WANDS QWK 0.354** (95% CI 0.326-0.382).
 - Versus the 3B it scaled up from: **+0.073 on ESCI, +0.110 on WANDS**. Real, and not small.
-- And squarely **inside the same 0.3-0.5 band** the learned laptop arms already occupied. It
+- And landed **inside the 0.24-0.49 band** the learned laptop arms already occupied. It
   did not beat Part 3's 0.486. It did not break anything.
 
 **The ceiling is the task, not the model size.** Pointwise relevance grading against
@@ -69,8 +71,10 @@ Two honest readings were available at the end of Part 3, and they point in oppos
 directions:
 
 1. **The task is hard.** Four very different methods - lexical, prompted, discriminative
-   fine-tune, generative adapter - all converge on the same narrow band. When methods
-   that share nothing converge, the thing they share is the problem.
+   fine-tune, generative adapter - all landed under the same 0.5 ceiling, with the three
+   learned or prompted methods filling the 0.24-0.49 range above the lexical floor. When
+   methods that share nothing land under the same ceiling, the thing they share is the
+   problem.
 2. **The machines are small.** Every arm fit in 16 GB of unified memory because that was
    the constraint we set, not because it was the right size for the job. A 3B model is a
    small model. Nobody serious grades relevance with a 3B model if they have a choice.
@@ -153,7 +157,7 @@ Here is the full Round-1 scorecard with the datacenter arm in it:
 | Arm | Hardware | ESCI QWK | WANDS QWK | ESCI acc | WANDS acc | Parse fails |
 |---|---|---|---|---|---|---|
 | A - BM25 | laptop CPU | 0.222 | 0.155 | 0.401 | 0.377 | - |
-| B - prompted `llama3.2:3b` | laptop | 0.288 | 0.244 | 0.317 | 0.310 | 7 / 5 |
+| B - prompted `llama3.2:3b` | laptop | 0.288 | 0.244 | 0.317 | 0.310 | 7 / 11 |
 | C - fine-tuned bge | laptop GPU | 0.360 | 0.299 | **0.517** | 0.473 | - |
 | D - LoRA Llama-3.2-3B | laptop GPU | 0.353 | **0.486** | 0.483 | **0.603** | - |
 | **R2 - prompted Qwen2.5-7B** | **datacenter GPU** | **0.361** | 0.354 | 0.343 | 0.332 | 3 / 0 |
@@ -167,7 +171,7 @@ on ESCI. Those two numbers are the same number. The 95% confidence intervals - [
 
 **So the answer to the question that closed Part 3 is: the ceiling is the task.** Scaling
 the prompted judge 2.3x and moving it onto a card with more memory than the entire laptop
-moved it from one part of the 0.3-0.5 band to another part of the 0.3-0.5 band. Pointwise
+moved it from one part of the 0.24-0.49 band to another part of the same band. Pointwise
 relevance grading against independent human labels is hard in a way that more parameters
 do not fix.
 
@@ -279,7 +283,7 @@ Four parts in, Round 1 has an answer, and it is a negative one - which is usuall
 worth having. The ceiling on pointwise relevance grading is the task. It survived a
 lexical baseline, a prompted small model, a discriminative fine-tune, a generative
 adapter, and a 2.3x bigger prompted judge on a datacenter GPU. Five methods, three
-hardware tiers, one band.
+hardware tiers, one ceiling nobody broke.
 
 What that leaves you with is not "which model is best" but **which arm is best for which
 goal**, and the series has a clear answer to that now:
