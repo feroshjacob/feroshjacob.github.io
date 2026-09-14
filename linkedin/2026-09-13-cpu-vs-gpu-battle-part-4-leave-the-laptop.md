@@ -2,7 +2,7 @@
 post_title: "CPU vs GPU battle, Round 1: leave the laptop, the ceiling comes with you"
 post_url: "https://feroshjacob.github.io/posts/2026/09/13/cpu-vs-gpu-battle-part-4-leave-the-laptop"
 post_slug: "2026-09-13-cpu-vs-gpu-battle-part-4-leave-the-laptop"
-linkedin_status: "ready"
+linkedin_status: "published"
 post_type: image
 visibility: PUBLIC
 post_image: "/images/cpu-vs-gpu-battle-part-4.png"
@@ -12,6 +12,9 @@ hashtags:
   - LLMasJudge
   - GPUComputing
   - Benchmarking
+linkedin_post_urn: "urn:li:share:7505137170207330304"
+linkedin_published_at: "2026-09-14T05:35:40.554603+00:00"
+linkedin_thumbnail_urn: "urn:li:image:D4E10AQG3x_XzW6pNKA"
 ---
 
 Three parts of this series ran on one 16 GB laptop, and nothing broke 0.5 QWK — a lexical floor at 0.222, then every learned or prompted arm somewhere between 0.24 and 0.49. Which leaves an obvious suspect: maybe the ceiling was never the task. Maybe it was just the machine.
