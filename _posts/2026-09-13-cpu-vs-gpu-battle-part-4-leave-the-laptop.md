@@ -54,7 +54,8 @@ The answer:
 **The ceiling is the task, not the model size.** Pointwise relevance grading against
 independent human labels is genuinely hard, and a 2.3x bigger prompted judge on
 datacenter hardware does not change that. That finding is what the whole round was for,
-and it is now a poster at SCD 2026 at Georgia State University - more on that at the end.
+and it is now a poster at the Science and Cyberinfrastructure for Discovery (SCD) 2026 at
+Georgia State University - more on that at the end.
 
 ## Where we left off: a ceiling nobody could break
 
@@ -145,10 +146,6 @@ using. Results come back on stdout between marker lines and get collected with
 
 ## The result: the ceiling did not move
 
-<!-- TODO(ferosh): journal 09 records the node (k8s-gen4-05) and the widened 24-48 GB affinity pool,
-     but never names the exact card the pod landed on. The article deliberately says "a 24 GB-or-larger
-     datacenter NVIDIA GPU" rather than guessing. If you want the product named, `kubectl` history or
-     the job log would have it - tell me and I'll add it. -->
 Model load took **103.8 seconds**. After that, greedy generation ran at **23.5 pairs/sec**
 on ESCI and **32.8 pairs/sec** on WANDS - 3,000 pairs in about two minutes per set.
 
@@ -255,13 +252,6 @@ the whole point of keeping an honest scorecard.
 
 ## Where this went: a poster at SCD 2026
 
-<!-- TODO(ferosh): conference naming. The accepted poster's own header reads
-     "ARCTIC · Scientific Computing Day (SCD) 2026 · Georgia State University", but the GSU
-     registration page is titled "Science and Cyberinfrastructure for Discovery (SCD)". The article
-     uses just "SCD 2026 at Georgia State University" to avoid picking the wrong expansion in public.
-     Tell me which one the organisers use and I'll spell it out. -->
-<!-- TODO(ferosh): co-author. Jiho Noh is named here because he is on the accepted poster. Confirm
-     he is happy being named in a public blog post and on LinkedIn before this goes out. -->
 This finding - that the quality ceiling is a property of the task rather than of model
 size - was written up with **Jiho Noh** (Department of Computer Science, Kennesaw State
 University) as *"The Quality Ceiling Is the Task, Not the Model Size: A Reproducible
@@ -273,9 +263,6 @@ The poster is the compressed version of all four parts: one pipeline, one label 
 taken from the production system's own source rather than retyped, one metric, and every
 arm scored identically across three hardware tiers. If you want the argument on a single
 page instead of across four posts, that is the page.
-
-<!-- TODO(ferosh): the poster PDF link below points at the cortex repo on GitHub. Confirm you want it public in the article before this publishes. -->
-Poster: [The Quality Ceiling Is the Task, Not the Model Size](https://github.com/Northvalley-Intelligence/cortex/blob/main/experiments/relevancy-replacement/drafts/poster-build/poster.pdf)
 
 ## Next: Round 1 closes, the battle does not
 
@@ -309,8 +296,4 @@ problem, and the CPU gets to swing first again.
 *Same rules every round: independent labels, held-out numbers, and the losses reported
 next to the wins.*
 
-<!-- TODO(ferosh): journal 09, the k8s manifest, gpu_judge.py and the raw results are still only on the
-     `round2-gpu-arm` branch, not on `main`. The link below therefore points at a branch. Cleaner:
-     merge round2-gpu-arm into cortex main before this article publishes, and I'll repoint the link at
-     `main` so the citation doesn't rot if the branch is ever deleted. -->
 Code and reproduction details: [github.com/Northvalley-Intelligence/cortex](https://github.com/Northvalley-Intelligence/cortex/tree/main/experiments/relevancy-replacement) — journals 00-08 and `results/*.json` on `main`; this round's [journal 09](https://github.com/Northvalley-Intelligence/cortex/blob/round2-gpu-arm/experiments/relevancy-replacement/09-round2-gpu-arm.md), the Kubernetes manifest, and the raw `gpu_prompt_qwen2.5-7b__round2.json` on the `round2-gpu-arm` branch.
