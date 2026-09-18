@@ -20,7 +20,7 @@ var addressPoints = [
     -122.232523
   ],
   [
-    "Code Template Inference Using Language Models<br />Annual Southeast Regional Conferenc; Oxford, MS",
+    "Code Template Inference Using Language Models<br />Annual Southeast Regional Conference; Oxford, MS",
     34.3663773,
     -89.5187664
   ],
@@ -50,14 +50,24 @@ var addressPoints = [
     -84.6154897
   ],
   [
+    "The Quality Ceiling Is the Task, Not the Model Size: A Reproducible CPU/GPU Benchmark of Search-Relevance Judges<br />SCD 2026 \u2014 Science and Cyberinfrastructure for Discovery Conference, Georgia State University (Lightning Talk Session: Artificial Intelligence & Machine Learning); Atlanta, GA",
+    33.7544657,
+    -84.3898151
+  ],
+  [
     "Ontology-based semantic search<br />Walton High School; Marietta, GA",
-    33.9528472,
-    -84.5496148
+    33.952845,
+    -84.5496054
   ],
   [
     "CUDACL: A Tool for CUDA and OpenCL Programmers<br />International Conference On High Performance Computing; Goa, India",
     15.3004543,
     74.0855134
+  ],
+  [
+    "Turning Digital Dreams into Working Software: How Software Is Changing Small Business<br />Paulding Connect (business networking, Paulding County); Paulding County, GA",
+    33.8908526,
+    -84.8569161
   ],
   [
     "Extending Abstract GPU APIs to Shared Memory<br />Software for Humanity (SPLASH); Reno,NV",
