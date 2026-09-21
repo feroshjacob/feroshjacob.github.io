@@ -16,7 +16,7 @@ image: /images/software-cheaper-by-how-much.png
 excerpt: "I've spent months arguing AI is making software cheaper. So I went looking for the evidence, applied my own rule, and found something more interesting than a percentage: software purchasing power."
 ---
 
-![Same $1,000, more software: a price tag sliding down on the left, an hourly rate meter rising on the right](/images/software-cheaper-by-how-much.png)
+![The developer's hourly rate goes up, the price the customer pays comes down, and the bakery gets more software for the same $1,000](/images/software-cheaper-by-how-much.gif)
 
 *Part 5 of [The End of Software Scarcity](/series/software-scarcity/).*
 
