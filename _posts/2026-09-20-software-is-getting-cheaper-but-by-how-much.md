@@ -28,30 +28,19 @@ Then I realized I should take my own advice.
 
 Where is the evidence?
 
+## Simple Economics
+
+Here's the mechanism: when supply rises faster than demand, price falls.
+
+Code supply has visibly risen since coding agents arrived. GitHub's own [Octoverse 2025 report](https://github.blog/news-insights/octoverse/octoverse-a-new-developer-joins-github-every-second-as-ai-leads-typescript-to-1/) puts a number on it: developers pushed nearly **1 billion commits in 2025, up 25.1% year-over-year** — the platform's biggest jump on record, including almost 100 million commits in August alone. Commits aren't code exactly, but they're the closest supply meter we have, and it's spinning faster than ever.
+
+So: **does that mean software cost is about to come down?**
+
+Not evenly. Price isn't set by supply alone — it's set by what buyers can substitute for what they already pay. Routine, well-specified work is already getting repriced: demand for AI-substitutable freelance skills is down 20–50% relative to trend, exactly where a price collapse hits first (see References). Bespoke work that used to sit outside the budget becomes affordable — that's the build-vs-buy shift below. And demand for software was never fixed: cheaper production unlocks buyers who never bought custom software at the old price, eating part of the supply increase. The invoice doesn't fall uniformly. Software purchasing power beats a price index because it survives demand that moves too.
+
 ## The Short Version
 
 There is no single number for "how much cheaper software has become." The honest evidence is messier and more interesting than that. Developer productivity, labor cost, production cost, market price, and what I'll call software purchasing power can all move in different directions at once. Below, two strong supporting signals, one important counterexample, and the concept I think actually matters.
-
-## Five Things People Quietly Mix Up
-
-Before any of the evidence makes sense, these need to stay separate:
-
-1. **Developer productivity** — how much output a developer produces.
-2. **Labor cost** — the cost of engineering time.
-3. **Production cost** — the total cost of creating the software.
-4. **Market price** — what customers actually pay for it.
-5. **Software purchasing power** — how much functionality a customer gets for a given amount of money.
-
-These are not the same thing, and they do not move together. An AI-skilled developer can charge *more* per hour while finishing a project in far *fewer* hours. Labor gets more expensive per hour. The software gets cheaper to produce. Both are true at once.
-
-## An Illustration, Not a Finding
-
-Here's a simple illustration to hold that idea, not a research result:
-
-- Before AI: 40 hours × $60/hour = **$2,400**
-- With AI: 10 hours × $100/hour = **$1,000**
-
-Nobody measured this exact project. It's a made-up example to make the distinction concrete: the hourly rate went *up* 67%, and the total cost went *down* 58%. Productivity, labor cost, and production cost just moved in three different directions in one paragraph.
 
 ## What the Evidence Actually Shows
 
@@ -114,6 +103,10 @@ The more interesting possibility is that we're measuring the wrong thing. The pr
 Historically, software was expensive and ideas were cheap. If software production keeps becoming abundant, that relationship may flip: software becomes cheap, and good ideas become the expensive part.
 
 That, I think, is what the end of software scarcity actually means.
+
+## Footnote: Five Things That Move Separately
+
+Before any of the evidence above makes sense, keep five things separate: developer productivity (output per developer), labor cost (cost of engineering time), production cost (total cost of creating the software), market price (what customers pay), and software purchasing power (functionality per dollar). They don't move together — an AI-skilled developer can charge more per hour while finishing in far fewer hours, so labor gets pricier per hour while the software gets cheaper to produce. Illustration, not data: before AI, 40 hours × $60/hour = $2,400; with AI, 10 hours × $100/hour = $1,000. Nobody measured this exact project, but it shows productivity, labor cost, and production cost moving in three directions in one paragraph.
 
 ## References
 
