@@ -1,6 +1,6 @@
 ---
 layout: series
-title: "The End of Software Scarcity"
+title: "Software Scarcity"
 permalink: /series/software-scarcity/
 series_key: software-scarcity
 description: "An ordered series on how AI-assisted development changes software economics for small businesses, custom workflows, and local operations."
