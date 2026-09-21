@@ -21,8 +21,10 @@ RUN chown -R vscode:vscode /usr/src/app
 # Switch to the non-root user
 USER vscode
 
-# Copy Gemfile into the container (necessary for `bundle install`)
-COPY Gemfile ./
+# Copy Gemfile and its lockfile into the container (necessary for `bundle install`
+# to install the exact pinned versions instead of re-resolving against
+# whatever is newest on rubygems.org at build time)
+COPY --chown=vscode:vscode Gemfile Gemfile.lock ./
 
 
 
