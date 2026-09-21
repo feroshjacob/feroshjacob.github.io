@@ -2,7 +2,7 @@
 post_title: "Software Is Getting Cheaper. But By How Much?"
 post_url: "https://feroshjacob.github.io/posts/2026/09/20/software-is-getting-cheaper-but-by-how-much"
 post_slug: "2026-09-20-software-is-getting-cheaper-but-by-how-much"
-linkedin_status: draft
+linkedin_status: "published"
 post_type: image
 visibility: PUBLIC
 post_image: "/images/software-cheaper-by-how-much.png"
@@ -12,6 +12,9 @@ hashtags:
   - DeveloperProductivity
   - SoftwareEconomics
   - BuildVsBuy
+linkedin_post_urn: "urn:li:ugcPost:7507657213671309312"
+linkedin_published_at: "2026-09-21T04:29:25.679534+00:00"
+linkedin_video_urn: "urn:li:video:D4E10AQHiy1v55na1rQ"
 ---
 
 One of the first things you learn working with AI: ask for evidence.
