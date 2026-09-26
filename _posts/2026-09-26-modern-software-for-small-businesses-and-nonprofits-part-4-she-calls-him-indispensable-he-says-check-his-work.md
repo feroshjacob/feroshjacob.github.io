@@ -146,7 +146,7 @@ Neither of them needed a policy to answer the privacy question.
 
 > The line is fairly simple: personalization should help me understand the work, not turn Terri’s private life into source material.
 
-It went on to say something I did not expect a tool to say about itself: that publishing the private details behind a difficult workday is a different decision from knowing them, and that the decision belongs to Terri. This article was written under that rule, and Terri read the full draft first.
+It went on to say something I did not expect a tool to say about itself: that publishing the private details behind a difficult workday is a different decision from knowing them, and that the decision belongs to Terri. This article was written under that rule, and nothing in it goes out until Terri has read the full draft.
 
 ## What This Relationship Is
 
