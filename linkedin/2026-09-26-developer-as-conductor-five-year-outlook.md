@@ -2,7 +2,7 @@
 post_title: "The Developer's Job in Five Years: Conductor, Not Coder"
 post_url: "https://feroshjacob.github.io/posts/2026/09/26/developer-as-conductor-five-year-outlook"
 post_slug: "2026-09-26-developer-as-conductor-five-year-outlook"
-linkedin_status: draft
+linkedin_status: "published"
 visibility: PUBLIC
 post_image: "/images/developer-as-conductor.png"
 hashtags:
@@ -11,6 +11,9 @@ hashtags:
   - AIAgents
   - ContextEngineering
   - SoftwareEconomics
+linkedin_post_urn: "urn:li:share:7509838864522473473"
+linkedin_published_at: "2026-09-27T04:58:31.879756+00:00"
+linkedin_thumbnail_urn: "urn:li:image:D4E10AQEoEDFbGgxgLA"
 ---
 
 Coding is getting cheap. That doesn't mean the developer's job disappears — it means it moves.
