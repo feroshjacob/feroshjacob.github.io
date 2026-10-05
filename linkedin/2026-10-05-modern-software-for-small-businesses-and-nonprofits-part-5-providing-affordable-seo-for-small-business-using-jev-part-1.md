@@ -1,5 +1,5 @@
 ---
-post_title: "MS-SBN, Part 5: Providing Affordable SEO for Small Business Using Jev (Part 1)"
+post_title: "Part 5: Providing Affordable SEO for Small Business Using Jev (Part 1)"
 post_url: "https://feroshjacob.github.io/posts/2026/10/05/modern-software-for-small-businesses-and-nonprofits-part-5-providing-affordable-seo-for-small-business-using-jev-part-1"
 post_slug: "2026-10-05-modern-software-for-small-businesses-and-nonprofits-part-5-providing-affordable-seo-for-small-business-using-jev-part-1"
 linkedin_status: draft
