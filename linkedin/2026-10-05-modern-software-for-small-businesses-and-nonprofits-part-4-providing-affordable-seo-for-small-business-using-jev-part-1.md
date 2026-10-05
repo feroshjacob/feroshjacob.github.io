@@ -1,10 +1,10 @@
 ---
-post_title: "Part 5: Providing Affordable SEO for Small Business Using Jev (Part 1)"
-post_url: "https://feroshjacob.github.io/posts/2026/10/05/modern-software-for-small-businesses-and-nonprofits-part-5-providing-affordable-seo-for-small-business-using-jev-part-1"
-post_slug: "2026-10-05-modern-software-for-small-businesses-and-nonprofits-part-5-providing-affordable-seo-for-small-business-using-jev-part-1"
+post_title: "Part 4: Providing Affordable SEO for Small Business Using Jev (Part 1)"
+post_url: "https://feroshjacob.github.io/posts/2026/10/05/modern-software-for-small-businesses-and-nonprofits-part-4-providing-affordable-seo-for-small-business-using-jev-part-1"
+post_slug: "2026-10-05-modern-software-for-small-businesses-and-nonprofits-part-4-providing-affordable-seo-for-small-business-using-jev-part-1"
 linkedin_status: draft
 visibility: PUBLIC
-post_image: "/images/modern-software-part5-jev-seo-architecture.png"
+post_image: "/images/modern-software-part4-jev-seo-architecture.png"
 hashtags:
   - AI
   - SmallBusiness
@@ -21,10 +21,10 @@ So I'm building a small, semi-automated tool that enters one approved business r
 
 Jev never drives a browser, fills a field, or clicks submit. It picks among a closed set of candidates from compact page state, and its answer always comes back non-executable — a human reviews every choice before it becomes a published fact.
 
-The honest build log is in the post: a browser-level privacy bug that unit tests alone would have missed, and four separate rounds of adversarial review that rejected an already-green test suite before release.
+The post also lays out a short list of ideas I want to try with Jev next — like noticing whatever field a person has focused on a listing form and handing them the matching value on the clipboard for one paste.
 
 The project is still in progress — ten sites, one platform fully adapter-automated so far. Open-sourcing it if it works.
 
-https://feroshjacob.github.io/posts/2026/10/05/modern-software-for-small-businesses-and-nonprofits-part-5-providing-affordable-seo-for-small-business-using-jev-part-1
+https://feroshjacob.github.io/posts/2026/10/05/modern-software-for-small-businesses-and-nonprofits-part-4-providing-affordable-seo-for-small-business-using-jev-part-1
 
 #AI #SmallBusiness #SEO #LocalBusiness #AIAgents

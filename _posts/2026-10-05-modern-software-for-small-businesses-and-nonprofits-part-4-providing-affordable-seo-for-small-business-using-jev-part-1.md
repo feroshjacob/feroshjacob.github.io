@@ -1,11 +1,11 @@
 ---
-title: "Part 5: Providing Affordable SEO for Small Business Using Jev (Part 1)"
+title: "Part 4: Providing Affordable SEO for Small Business Using Jev (Part 1)"
 date: 2026-10-05
-permalink: /posts/2026/10/05/modern-software-for-small-businesses-and-nonprofits-part-5-providing-affordable-seo-for-small-business-using-jev-part-1
+permalink: /posts/2026/10/05/modern-software-for-small-businesses-and-nonprofits-part-4-providing-affordable-seo-for-small-business-using-jev-part-1
 categories:
   - modern-software-small-businesses-nonprofits
 series: modern-software-small-businesses-nonprofits
-series_order: 5
+series_order: 4
 tags:
   - seo for small business
   - local business listings
@@ -16,15 +16,15 @@ tags:
   - human in the loop
   - business profile automation
   - software validation
-image: /images/modern-software-part5-jev-seo-architecture.png
+image: /images/modern-software-part4-jev-seo-architecture.png
 excerpt: "The SEO tools that manage several sites at once price out a small business before it starts. So I'm building a semi-automated tool, with Jev narrowing ambiguous choices, that fills out business listings across ten sites without pretending every site allows a bot at the keyboard."
 ---
 
 <p class="align-center">
-  <img src="/images/modern-software-part5-jev-seo-architecture.png" alt="Diagram: one approved business record feeding four levels of automation -- API automated, prefill with auto-submit (unused), prefill with human submit, and assist-the-user -- with a narrow Jev assist loop and a validation and review gate in front of every path" style="max-width: 100%; height: auto;" />
+  <img src="/images/modern-software-part4-jev-seo-architecture.png" alt="Diagram: one approved business record feeding four levels of automation -- API automated, prefill with auto-submit (unused), prefill with human submit, and assist-the-user -- with a narrow Jev assist loop and a validation and review gate in front of every path" style="max-width: 100%; height: auto;" />
 </p>
 
-This is Part 5 of the [Modern Software for Small Businesses and Nonprofits](https://feroshjacob.github.io/series/modern-software-small-businesses-nonprofits/) series, and Part 1 of a new sub-topic inside it: providing affordable SEO for small business, starting with local business-listing profiles, and starting with Jev doing the narrow work it's actually good at.
+This is Part 4 of the [Modern Software for Small Businesses and Nonprofits](https://feroshjacob.github.io/series/modern-software-small-businesses-nonprofits/) series, and Part 1 of a new sub-topic inside it: providing affordable SEO for small business, starting with local business-listing profiles, and starting with Jev doing the narrow work it's actually good at.
 
 ## The short version
 
@@ -89,4 +89,4 @@ Part 2 of this sub-series will pick up once there's a live, human-approved publi
 
 ---
 
-*Previous: [Part 4 — She Calls Him Indispensable. He Says Check His Work.](https://feroshjacob.github.io/posts/2026/09/26/modern-software-for-small-businesses-and-nonprofits-part-4-she-calls-him-indispensable-he-says-check-his-work) · Series: [Modern Software for Small Businesses and Nonprofits](https://feroshjacob.github.io/series/modern-software-small-businesses-nonprofits/)*
+*Previous: [Part 3 — My Ten-Year-Old Built a Video Game From Four-Word Prompts](https://feroshjacob.github.io/posts/2026/07/28/modern-software-for-small-businesses-and-nonprofits-part-3-my-ten-year-old-built-a-game-from-four-word-prompts) · Series: [Modern Software for Small Businesses and Nonprofits](https://feroshjacob.github.io/series/modern-software-small-businesses-nonprofits/)*
