@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="980" viewBox="0 0 1400 980" role="img" aria-labelledby="title desc">
+  <title id="title">Semi-automated business-profile architecture with a narrow Jev assist loop</title>
+  <desc id="desc">One approved business record feeds four destination paths of decreasing automation -- API automated, prefill with automated submit (disabled), prefill with human submit, and assist the user only. A narrow Jev decision loop helps interpret ambiguous page state on any path but cannot act. A validation and frontier review gate sits between every path and the live platform.</desc>
+  <defs>
+    <marker id="arrow-teal" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M 0 0 L 12 6 L 0 12 z" fill="#0f766e"/>
+    </marker>
+    <marker id="arrow-ink" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M 0 0 L 12 6 L 0 12 z" fill="#334155"/>
+    </marker>
+    <marker id="arrow-amber" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M 0 0 L 12 6 L 0 12 z" fill="#b45309"/>
+    </marker>
+    <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#0f172a" flood-opacity="0.14"/>
+    </filter>
+    <style>
+      .bg { fill: #f8fafc; }
+      .panel { fill: #ffffff; stroke: #cbd5e1; stroke-width: 2; filter: url(#soft-shadow); }
+      .center { fill: #f0fdfa; stroke: #0f766e; stroke-width: 3; filter: url(#soft-shadow); }
+      .disabled { fill: #f8fafc; stroke: #cbd5e1; stroke-width: 2; stroke-dasharray: 6 6; }
+      .jev { fill: #fdf4ff; stroke: #86198f; stroke-width: 3; filter: url(#soft-shadow); }
+      .gate { fill: #fffbeb; stroke: #b45309; stroke-width: 3; filter: url(#soft-shadow); }
+      .title { font-family: Arial, Helvetica, sans-serif; font-size: 32px; font-weight: 700; fill: #0f172a; }
+      .subtitle { font-family: Arial, Helvetica, sans-serif; font-size: 18px; fill: #475569; }
+      .heading { font-family: Arial, Helvetica, sans-serif; font-size: 20px; font-weight: 700; fill: #0f172a; }
+      .body { font-family: Arial, Helvetica, sans-serif; font-size: 14.5px; fill: #334155; }
+      .label { font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: 700; fill: #0f766e; }
+      .label-amber { font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: 700; fill: #b45309; }
+      .label-purple { font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: 700; fill: #86198f; }
+      .micro { font-family: Arial, Helvetica, sans-serif; font-size: 13px; fill: #475569; }
+      .arrow-teal { fill: none; stroke: #0f766e; stroke-width: 3.5; marker-end: url(#arrow-teal); }
+      .arrow-ink { fill: none; stroke: #334155; stroke-width: 2.5; marker-end: url(#arrow-ink); }
+      .arrow-amber { fill: none; stroke: #b45309; stroke-width: 2.5; marker-end: url(#arrow-amber); }
+      .loop { fill: none; stroke: #86198f; stroke-width: 2.5; marker-end: url(#arrow-ink); stroke-dasharray: 7 7; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1400" height="980"/>
+
+  <text class="title" x="700" y="48" text-anchor="middle">One Approved Record, Four Levels of Automation</text>
+  <text class="subtitle" x="700" y="76" text-anchor="middle">Jev assists narrowly on any path. Nothing public ships without the validation and review gate.</text>
+
+  <!-- Approved business record -->
+  <rect class="center" x="470" y="100" width="460" height="100" rx="16"/>
+  <text class="heading" x="700" y="134" text-anchor="middle">Approved Business Record</text>
+  <text class="body" x="700" y="158" text-anchor="middle">Public facts / private contact / verification data / secrets -- classified at the source</text>
+  <text class="micro" x="700" y="180" text-anchor="middle">name, phone, website, category, hours, service area</text>
+
+  <path class="arrow-teal" d="M 580 200 C 400 230 220 260 190 300"/>
+  <path class="arrow-teal" d="M 650 200 C 580 240 540 270 525 300"/>
+  <path class="arrow-teal" d="M 750 200 C 820 240 860 270 875 300"/>
+  <path class="arrow-teal" d="M 820 200 C 1000 230 1180 260 1210 300"/>
+
+  <!-- Four path panels -->
+  <rect class="panel" x="50" y="300" width="300" height="200" rx="14"/>
+  <text class="heading" x="200" y="332" text-anchor="middle">1. API Automated</text>
+  <text class="label" x="200" y="354" text-anchor="middle">Foursquare Places API</text>
+  <text class="body" x="75" y="382">Authenticated search, explicit</text>
+  <text class="body" x="75" y="402">dry_run preview, one human-</text>
+  <text class="body" x="75" y="422">approved suggestion write.</text>
+  <text class="body" x="75" y="450">Service keys are the only</text>
+  <text class="body" x="75" y="470">platform with documented</text>
+  <text class="body" x="75" y="490">automation permission.</text>
+
+  <rect class="disabled" x="385" y="300" width="300" height="200" rx="14"/>
+  <text class="heading" x="535" y="332" text-anchor="middle">2. Prefill + Auto-Submit</text>
+  <text class="label-amber" x="535" y="354" text-anchor="middle">Architecturally supported, unused</text>
+  <text class="body" x="410" y="382">No platform has granted fill-</text>
+  <text class="body" x="410" y="402">and-submit permission yet.</text>
+  <text class="body" x="410" y="422">Unknown defaults to deny --</text>
+  <text class="body" x="410" y="450">a Jev answer cannot open</text>
+  <text class="body" x="410" y="470">this path either.</text>
+
+  <rect class="panel" x="720" y="300" width="300" height="200" rx="14"/>
+  <text class="heading" x="870" y="332" text-anchor="middle">3. Prefill + Human Submits</text>
+  <text class="label" x="870" y="354" text-anchor="middle">Bing Places (fixture-tested)</text>
+  <text class="body" x="745" y="382">Draft review prepared from</text>
+  <text class="body" x="745" y="402">approved values; duplicate-</text>
+  <text class="body" x="745" y="422">checked. A person claims,</text>
+  <text class="body" x="745" y="450">reviews, and submits --</text>
+  <text class="body" x="745" y="470">no browser is driven.</text>
+
+  <rect class="panel" x="1055" y="300" width="300" height="200" rx="14"/>
+  <text class="heading" x="1205" y="332" text-anchor="middle">4. Assist the User</text>
+  <text class="label" x="1205" y="354" text-anchor="middle">Yelp, Nextdoor, Apple, Data Axle,</text>
+  <text class="label" x="1205" y="373" text-anchor="middle">BBB, Yellow Pages, Facebook, Angi*</text>
+  <text class="body" x="1080" y="400">Values and instructions</text>
+  <text class="body" x="1080" y="420">prepared; the person does</text>
+  <text class="body" x="1080" y="440">every step by hand. Angi is</text>
+  <text class="body" x="1080" y="460">blocked outright (marketing-</text>
+  <text class="body" x="1080" y="480">consent funnel, no free route).</text>
+
+  <!-- Jev assist loop -->
+  <rect class="jev" x="470" y="560" width="460" height="150" rx="16"/>
+  <text class="heading" x="700" y="594" text-anchor="middle">Jev Runtime Assist Loop</text>
+  <text class="body" x="700" y="618" text-anchor="middle">Compact page state + closed candidates in, one validated choice out</text>
+  <text class="body" x="700" y="640" text-anchor="middle">Never sees screenshots, HTML, credentials, or private data</text>
+  <text class="label-purple" x="700" y="664" text-anchor="middle">Always returns executionAllowed: false</text>
+  <text class="micro" x="700" y="686" text-anchor="middle">via TypeSafe SDK -&gt; jev-1.13.0 -- it narrows the choice, it never clicks</text>
+
+  <path class="loop" d="M 200 500 C 230 540 380 558 560 560"/>
+  <path class="loop" d="M 870 500 C 800 540 740 558 700 560"/>
+  <path class="loop" d="M 1205 500 C 1100 545 920 558 840 560"/>
+
+  <!-- Validation / review gate -->
+  <rect class="gate" x="250" y="760" width="900" height="150" rx="16"/>
+  <text class="heading" x="700" y="794" text-anchor="middle">Validation &amp; Frontier Review Gate</text>
+  <text class="body" x="700" y="818" text-anchor="middle">Playwright browser tests (caught a private-data-in-URL regression) +</text>
+  <text class="body" x="700" y="838" text-anchor="middle">four adversarial frontier review passes (rejected four release candidates after green suites)</text>
+  <text class="label-amber" x="700" y="864" text-anchor="middle">A passing test suite is an input to release review, not the release decision</text>
+  <text class="micro" x="700" y="886" text-anchor="middle">every path's output stops here before any public, human-controlled action</text>
+
+  <path class="arrow-ink" d="M 200 500 L 420 760"/>
+  <path class="arrow-ink" d="M 535 500 C 480 530 430 545 430 560 L 430 735 C 430 750 500 758 580 760"/>
+  <path class="arrow-ink" d="M 870 500 C 920 530 965 545 965 560 L 965 735 C 965 750 870 758 800 760"/>
+  <path class="arrow-ink" d="M 1205 500 L 950 760"/>
+
+  <text class="micro" x="700" y="950" text-anchor="middle">*Angi: blocked pending an official free, no-marketing-consent profile route</text>
+</svg>
