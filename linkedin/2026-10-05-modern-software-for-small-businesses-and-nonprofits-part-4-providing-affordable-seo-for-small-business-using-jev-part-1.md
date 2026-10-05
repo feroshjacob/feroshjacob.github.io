@@ -10,7 +10,6 @@ hashtags:
   - SmallBusiness
   - SEO
   - LocalBusiness
-  - AIAgents
   - Jev
   - TypeSafe
 ---
@@ -29,4 +28,4 @@ The project is still in progress — ten sites, one platform fully adapter-autom
 
 https://feroshjacob.github.io/posts/2026/10/05/modern-software-for-small-businesses-and-nonprofits-part-4-providing-affordable-seo-for-small-business-using-jev-part-1
 
-#AI #SmallBusiness #SEO #LocalBusiness #AIAgents #Jev #TypeSafe
+#AI #SmallBusiness #SEO #LocalBusiness #Jev #TypeSafe
