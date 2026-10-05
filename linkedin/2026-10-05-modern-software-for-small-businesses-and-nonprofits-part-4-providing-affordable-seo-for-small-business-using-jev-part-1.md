@@ -11,6 +11,8 @@ hashtags:
   - SEO
   - LocalBusiness
   - AIAgents
+  - Jev
+  - TypeSafe
 ---
 
 SEO tools that manage more than five or six sites at once can easily cost $1,000 a month. An agency reselling that has to recover it across clients — which is several thousand dollars a month landing on one small business. That's not a budget decision; it's just out of reach.
@@ -27,4 +29,4 @@ The project is still in progress — ten sites, one platform fully adapter-autom
 
 https://feroshjacob.github.io/posts/2026/10/05/modern-software-for-small-businesses-and-nonprofits-part-4-providing-affordable-seo-for-small-business-using-jev-part-1
 
-#AI #SmallBusiness #SEO #LocalBusiness #AIAgents
+#AI #SmallBusiness #SEO #LocalBusiness #AIAgents #Jev #TypeSafe
