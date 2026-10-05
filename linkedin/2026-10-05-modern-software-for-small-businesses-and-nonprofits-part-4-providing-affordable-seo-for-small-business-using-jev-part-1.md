@@ -2,7 +2,7 @@
 post_title: "Part 4: Providing Affordable SEO for Small Business Using Jev (Part 1)"
 post_url: "https://feroshjacob.github.io/posts/2026/10/05/modern-software-for-small-businesses-and-nonprofits-part-4-providing-affordable-seo-for-small-business-using-jev-part-1"
 post_slug: "2026-10-05-modern-software-for-small-businesses-and-nonprofits-part-4-providing-affordable-seo-for-small-business-using-jev-part-1"
-linkedin_status: draft
+linkedin_status: "published"
 visibility: PUBLIC
 post_image: "/images/modern-software-part4-jev-seo-architecture.png"
 hashtags:
@@ -12,6 +12,9 @@ hashtags:
   - LocalBusiness
   - Jev
   - TypeSafe
+linkedin_post_urn: "urn:li:share:7512889324615491584"
+linkedin_published_at: "2026-10-05T14:59:58.244042+00:00"
+linkedin_thumbnail_urn: "urn:li:image:D4E10AQGV1VIK1Yf82A"
 ---
 
 SEO tools that manage more than five or six sites at once can easily cost $1,000 a month. An agency reselling that has to recover it across clients — which is several thousand dollars a month landing on one small business. That's not a budget decision; it's just out of reach.
