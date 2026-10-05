@@ -38,11 +38,9 @@ Local listing profiles (Google, Bing, Yelp, Nextdoor, and the rest) are one of t
 
 ## What Jev is, in plain terms
 
-I don't expect anyone to already know what Jev is, so here it is simply: Jev is an AI model I reach through [TypeSafe's](https://typesafe.ai) official SDK ([docs.typesafe.ai](https://docs.typesafe.ai)), and I use it only for narrow, bounded decisions — not for writing code and not for driving a browser. Jev lives behind its own endpoint, separate from TypeSafe's default API, and while I'm validating its behavior I pin the exact model version (`jev-1.13.0`) rather than trust the floating `jev-latest` alias.
+I don't expect anyone to already know what Jev is, so here it is simply: Jev is an AI model I reach through [TypeSafe's](https://typesafe.ai) official SDK ([docs.typesafe.ai](https://docs.typesafe.ai)), and I use it only for narrow, bounded decisions — not for writing code and not for driving a browser.
 
-The lesson that mattered most here had nothing to do with SEO: changing an SDK key does not change where the SDK talks to. Getting Jev's base URL and key right was a security and billing control, not a configuration footnote — and a successful API call only proves the transport works, not that the model's decisions are good ones.
-
-Jev shows up in exactly one place in the running application: a loopback-only "runtime assist" endpoint. A human supplies compact, visible page state and a closed set of candidate answers; Jev picks among them; the endpoint validates the choice against the candidates it was given and always returns `executionAllowed: false`. It cannot navigate, fill a field, upload anything, submit anything, or expand what an adapter is allowed to do. One real call through that endpoint, during Foursquare category selection, used 552 paid input tokens and 41 output tokens, charged zero credits, and still required a human to review the result before anything moved forward.
+Jev shows up in exactly one place in the running application: a loopback-only "runtime assist" endpoint. A human supplies compact, visible page state and a closed set of candidate answers; Jev picks among them; the endpoint validates the choice against the candidates it was given and always returns `executionAllowed: false`. It cannot navigate, fill a field, upload anything, submit anything, or expand what an adapter is allowed to do.
 
 ## Why semi-automated, not fully automated
 
@@ -65,26 +63,23 @@ So "semi-automated" isn't a hedge — it's the honest description of ten sites t
 
 ## The architecture
 
-The diagram above is the real shape of the system: one approved, source-attributed business record feeds four possible levels of automation, Jev sits in a narrow assist loop that any of those levels can call into but that can never act on its own, and nothing reaches a live platform without passing a validation gate and a second, adversarial review from a stronger model — I'll just call it the reviewer from here on.
+The diagram above is the real shape of the system: one approved, source-attributed business record feeds four possible levels of automation, Jev sits in a narrow assist loop that any of those levels can call into but that can never act on its own, and nothing reaches a live platform without passing a validation gate and a second, adversarial review from a stronger model first.
 
 1. **API automated — Foursquare.** The only platform with a documented automation grant. The adapter does an authenticated duplicate search, an explicit `dry_run=true` preview, and then one human-approved `dry_run=false` suggestion write — never a browser interaction with Foursquare's business portal.
 2. **Prefill + automated submit.** Architecturally supported by the adapter contract, but currently unused by every one of the ten platforms, because none of them has granted fill-and-submit permission. This is the level where "unknown means deny" actually bites: Jev being confident about a field does not open this path either.
 3. **Prefill + human submits — Bing.** A fixture-tested draft review is prepared from the approved record, checked against known duplicates, and handed to a person to claim, review, and submit. No browser drives Bing's site.
 4. **Assist the user — the other eight platforms.** Values and instructions are prepared; the person does every step themselves, in their own browser, with their own login.
 
+This is also the path with the most unused room for Jev — ideas I want to try, not finished work, and every one of them still ends with the person clicking submit themselves:
+
+- **Clipboard assist** — the tool notices which field the person has focused (its label and the text around it), Jev picks the matching value from the approved record, and it lands on the clipboard for one paste.
+- **Label matching per site** — Jev maps each platform's own wording ("Contact number," "Business phone") back to the record's fields, since no two sites use the same labels.
+- **Category picking from each site's own taxonomy** — the same narrow job Jev already does for Foursquare's category list, applied to whichever list the next platform uses.
+- **Page recognition** — Jev classifies which step the person is looking at (claim, verification, address options, done) so the tool can show the right instruction instead of a generic one.
+- **Duplicate judgment** — before the person claims anything, Jev looks at a search result and judges whether it's plausibly the same business.
+- **Address-visibility choice** — Jev reads a site's own address and service-area options and suggests the setting that matches how the record's address is classified.
+
 Jev's runtime assist loop sits underneath all four paths, not inside any one of them: it takes compact page state and a closed candidate list, returns one validated choice, and never sees a screenshot, raw HTML, a credential, or a private email.
-
-## What implementing this actually taught me
-
-**Browser-level testing caught a real privacy bug that unit tests missed.** The first local Playwright run failed because a syntax error silently broke the client-side submit handler, and the browser fell back to a GET form submission — which puts private intake emails directly in the URL. Unit tests of the server-side rules never would have caught this; only exercising the actual browser path did. The fix added a POST fallback, a regression test for the parse error, and an end-to-end assertion that private values never reach the address bar.
-
-**A green test suite is an input to release review, not the release decision.** The first Foursquare candidate passed strict typing, 73 automated tests, and three browser scenarios — and the reviewer still rejected it. It found that two different HTTP action IDs could acquire two external writes for the same approved review, that an uncertain timeout could be replayed through a fresh preview, and that a stored rejected response could be mistaken for success after a restart. The fix bound the one consequential write to the immutable publication-review ID rather than to any button or action ID — idempotency by review, not by click.
-
-**That rejection happened four separate times, each one subtler than the last.** The first review found four gaps in the general workflow (a required fact could silently lose approval, a Bing duplicate could leave the operator stranded). The second and third reviews went after the first fix as a general class rather than checking only the reported examples, and found a verification-code filter that still let some code formats through, plus a database migration that didn't actually restore the meaning of an old saved listing. The fourth review found a genuine recovery dead end — a public candidate URL that safely failed review but left the operator with no valid next action. Each round made the release gate stricter without the happy-path tests ever changing.
-
-**Foursquare's category pick is the clearest real example of what Jev is for.** Deterministic code supplied four current Foursquare category candidates plus an explicit `unknown` option; the `jev-latest` alias call failed outright with zero usage reported, but the pinned `jev-1.13.0` call selected "Home Service" using 594 paid input tokens and 62 output tokens, charged zero credits. That selection became a draft for human approval, not a published fact — which is exactly the boundary the whole project is built around.
-
-**Foursquare became the first (and so far only) fully adapter-automated platform**, specifically because it's the only one with documented automation permission. Getting there took a correction, too: the first live duplicate-search filter was too broad and would have blocked on any business sharing a word with a nearby result, so it was narrowed to exact phone/website/name matches or strong name overlap, with the provider's own `dry_run=true` check as a second guard.
 
 ## Status
 
