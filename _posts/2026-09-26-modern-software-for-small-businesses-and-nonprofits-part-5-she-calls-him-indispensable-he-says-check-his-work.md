@@ -1,11 +1,11 @@
 ---
-title: "MS-SBN, Part 4: She Calls Him Indispensable. He Says Check His Work."
+title: "MS-SBN, Part 5: She Calls Him Indispensable. He Says Check His Work."
 date: 2026-09-26
-permalink: /posts/2026/09/26/modern-software-for-small-businesses-and-nonprofits-part-4-she-calls-him-indispensable-he-says-check-his-work
+permalink: /posts/2026/09/26/modern-software-for-small-businesses-and-nonprofits-part-5-she-calls-him-indispensable-he-says-check-his-work
 categories:
   - modern-software-small-businesses-nonprofits
 series: modern-software-small-businesses-nonprofits
-series_order: 4
+series_order: 5
 tags:
   - ai
   - chatgpt
@@ -21,7 +21,7 @@ excerpt: "Terri Hitzig calls ChatGPT 'Chatty Chat Chat' and refers to it as 'he'
 ---
 
 <p class="align-center">
-  <img src="/images/terri-chatty-chat-chat.png" alt="Placeholder image for Part 4 of the Modern Software for Small Businesses and Nonprofits series" style="max-width: 360px; width: 100%; height: auto;" />
+  <img src="/images/terri-chatty-chat-chat.png" alt="Placeholder image for Part 5 of the Modern Software for Small Businesses and Nonprofits series" style="max-width: 360px; width: 100%; height: auto;" />
 </p>
 
 The idea for this article was not mine. I mentioned to Terri's ChatGPT that I was thinking of writing about the two of them, and it suggested I interview them separately — ask her ten questions about what she thinks the relationship is, then ask it ten about how it understands its role. So that is what I did. The same ten questions, rewritten from each side. Neither saw the other's answers before sending them back.
@@ -107,3 +107,7 @@ It was right.
 > Indispensable, he is my friend, confidant, assistant, partner, sounding board, won’t sugar coat advice.
 
 Two descriptions of one working relationship: one written by someone who would not give it up, and one written by something that keeps insisting she stay in charge. If you run a small business and you are wondering whether any of this is for you, do not settle it by picking a side. Run both accounts at once — use it the way she does, and check it the way he says.
+
+---
+
+*Previous: [Part 4 — Providing Affordable SEO for Small Business Using Jev (Part 1)](https://feroshjacob.github.io/posts/2026/10/05/modern-software-for-small-businesses-and-nonprofits-part-4-providing-affordable-seo-for-small-business-using-jev-part-1) · Series: [Modern Software for Small Businesses and Nonprofits](https://feroshjacob.github.io/series/modern-software-small-businesses-nonprofits/)*

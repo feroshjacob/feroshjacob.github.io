@@ -1,7 +1,7 @@
 ---
-post_title: "MS-SBN, Part 4: She Calls Him Indispensable. He Says Check His Work."
-post_url: "https://feroshjacob.github.io/posts/2026/09/26/modern-software-for-small-businesses-and-nonprofits-part-4-she-calls-him-indispensable-he-says-check-his-work"
-post_slug: "2026-09-26-modern-software-for-small-businesses-and-nonprofits-part-4-she-calls-him-indispensable-he-says-check-his-work"
+post_title: "MS-SBN, Part 5: She Calls Him Indispensable. He Says Check His Work."
+post_url: "https://feroshjacob.github.io/posts/2026/09/26/modern-software-for-small-businesses-and-nonprofits-part-5-she-calls-him-indispensable-he-says-check-his-work"
+post_slug: "2026-09-26-modern-software-for-small-businesses-and-nonprofits-part-5-she-calls-him-indispensable-he-says-check-his-work"
 linkedin_status: draft
 visibility: PUBLIC
 post_image: "/images/terri-chatty-chat-chat.png"
@@ -25,6 +25,6 @@ She pays $20 a month and says he is worth it. It says she gets poor value every 
 
 A tool arguing for its own limits while its user argues for its indispensability is a more honest story than another productivity review — and a useful one if you run a business on your own.
 
-https://feroshjacob.github.io/posts/2026/09/26/modern-software-for-small-businesses-and-nonprofits-part-4-she-calls-him-indispensable-he-says-check-his-work
+https://feroshjacob.github.io/posts/2026/09/26/modern-software-for-small-businesses-and-nonprofits-part-5-she-calls-him-indispensable-he-says-check-his-work
 
 #AI #SmallBusiness #ChatGPT #AIAndWork #SmallBusinessSoftware
