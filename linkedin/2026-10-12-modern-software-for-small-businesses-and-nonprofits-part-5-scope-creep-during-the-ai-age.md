@@ -2,7 +2,7 @@
 post_title: "Part 5: Scope Creep During the AI Age"
 post_url: "https://feroshjacob.github.io/posts/2026/10/12/modern-software-for-small-businesses-and-nonprofits-part-5-scope-creep-during-the-ai-age"
 post_slug: "2026-10-12-modern-software-for-small-businesses-and-nonprofits-part-5-scope-creep-during-the-ai-age"
-linkedin_status: draft
+linkedin_status: "published"
 visibility: PUBLIC
 post_image: "/images/modern-software-part5-scope-creep.png"
 hashtags:
@@ -12,6 +12,9 @@ hashtags:
   - SmallBusiness
   - ClaudeCode
   - SoftwareEngineering
+linkedin_post_urn: "urn:li:share:7515254861475713024"
+linkedin_published_at: "2026-10-12T03:39:46.154866+00:00"
+linkedin_thumbnail_urn: "urn:li:image:D4E10AQEeBSRrCcpR-g"
 ---
 
 AI agents made it cheap to start things. Keeping track of them is another story.
