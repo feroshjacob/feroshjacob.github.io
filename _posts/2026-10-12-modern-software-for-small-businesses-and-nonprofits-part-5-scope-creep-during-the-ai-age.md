@@ -29,7 +29,7 @@ AI agents made building software cheaper. They did not make keeping track of it 
 
 ## The short version
 
-AI agents ask good questions, build quickly and never get tired, so the number of things in flight grows faster than a person can follow. In both projects the list of open items grew faster than my understanding of them, and I want to be closer to the details than I am. I don't have a fix yet. I do think naming the problem is the first step.
+In both projects the list of open items grew faster than my understanding of them, and I want to be closer to the details than I am. I don't have a fix yet. I do think naming the problem is the first step.
 
 ## Scenario 1: what happened when my agent kept asking the client questions?
 
