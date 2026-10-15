@@ -108,4 +108,4 @@ She’ll keep baking, creating, collecting, questioning, and chatting.
 
 And if Chatty gets something wrong, she’ll be the first to tell it.
 
-*Learn more about A Resplendent Tea Experience and the upcoming Friendsgiving Afternoon Tea at [resplendenttea.com](https://resplendenttea.com/friendsgiving-tea-at-distillery-of-modern-art).*
+*Learn more about A Resplendent Tea Experience and the upcoming Friendsgiving Afternoon Tea at [resplendenttea.com/friendsgiving-tea-at-distillery-of-modern-art](https://resplendenttea.com/friendsgiving-tea-at-distillery-of-modern-art).*
