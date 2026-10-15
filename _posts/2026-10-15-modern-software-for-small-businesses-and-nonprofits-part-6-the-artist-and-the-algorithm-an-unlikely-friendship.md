@@ -26,7 +26,7 @@ excerpt: "How a 64-year-old Georgia entrepreneur found an unexpected creative pa
 
 Terri Hitzig is not your typical technology enthusiast.
 
-At 64, she’s a mixed-media artist, self-taught pastry chef, vintage collector, and entrepreneur who drives a bright yellow Corvette around Marietta, Georgia. Her world revolves around color, creativity, food, and beautiful old things.
+At 64, she’s a mixed-media artist, pastry chef, vintage collector, and entrepreneur who drives a bright yellow Corvette around Marietta, Georgia. Her world revolves around color, creativity, food, and beautiful old things.
 
 And her rather unlikely companion?
 
