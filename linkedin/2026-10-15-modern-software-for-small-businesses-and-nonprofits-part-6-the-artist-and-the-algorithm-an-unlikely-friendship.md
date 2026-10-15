@@ -4,7 +4,7 @@ post_url: "https://feroshjacob.github.io/posts/2026/10/15/modern-software-for-sm
 post_slug: "2026-10-15-modern-software-for-small-businesses-and-nonprofits-part-6-the-artist-and-the-algorithm-an-unlikely-friendship"
 linkedin_status: draft
 visibility: PUBLIC
-post_image: "/images/terri-chatty-chat-chat.png"
+post_image: "/images/terri-hitzig.jpg"
 hashtags:
   - AI
   - SmallBusiness

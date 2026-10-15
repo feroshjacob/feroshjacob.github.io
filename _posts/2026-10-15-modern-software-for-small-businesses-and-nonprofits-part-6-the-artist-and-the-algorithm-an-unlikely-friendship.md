@@ -16,12 +16,12 @@ tags:
   - tea business
   - solo business owner
   - ai cost
-image: /images/terri-chatty-chat-chat.png
+image: /images/terri-hitzig.jpg
 excerpt: "How a 64-year-old Georgia entrepreneur found an unexpected creative partner in artificial intelligence"
 ---
 
 <p class="align-center">
-  <img src="/images/terri-chatty-chat-chat.png" alt="Image for Part 6 of the Modern Software for Small Businesses and Nonprofits series" style="max-width: 360px; width: 100%; height: auto;" />
+  <img src="/images/terri-hitzig.jpg" alt="Terri Hitzig, smiling, in pink cat-eye glasses" style="max-width: 360px; width: 100%; height: auto;" />
 </p>
 
 Terri Hitzig is not your typical technology enthusiast.
