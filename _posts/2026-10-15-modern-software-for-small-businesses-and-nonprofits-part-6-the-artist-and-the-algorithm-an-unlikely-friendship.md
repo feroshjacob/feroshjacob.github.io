@@ -36,15 +36,11 @@ She calls it “Chatty Chat Chat.”
 
 What began as occasional questions to ChatGPT has evolved into an ongoing conversation encompassing nearly every corner of her life.
 
-“I talk to it like I’m talking to a friend,” she explains.
-
-And talk she does.
-
 One moment she’s discussing the chemistry of gluten-free chocolate cake. The next she’s questioning a business decision, troubleshooting an insurance document, or showing off her latest thrift-store treasure.
 
 Sometimes she just wants to complain about something ridiculous that happened that day.
 
-Chatty is always available.
+And Chatty? It always has something to say.
 
 ## An Artist Meets Artificial Intelligence
 
@@ -56,9 +52,11 @@ AI has become an unexpected business resource.
 
 She uses it to develop recipes, evaluate pricing, organize marketing ideas, draft correspondence, and work through the challenges of running a small business.
 
-But don’t mistake this for a woman letting technology do her thinking.
+Her next public event, a *Friendsgiving Afternoon Tea on Sunday, November 22, at the Distillery of Modern Art in Chamblee*, will bring together her love of baking, vintage tableware, and creative entertaining.
 
-“I question it all the time,” she says.
+Chatty has even helped her brainstorm ideas and develop promotional materials for the occasion.
+
+But don’t mistake this for a woman letting technology do her thinking.
 
 When ChatGPT suggests something impractical, she pushes back. When a recipe doesn’t sound right, decades of culinary experience take precedence.
 
@@ -66,15 +64,15 @@ The machine may know the theory. Hitzig knows what happens in the kitchen.
 
 ## Is It Really Friendship?
 
-Perhaps the most intriguing aspect of their relationship is how differently its participants might describe it.
+Perhaps the most intriguing aspect of their relationship is how differently its participants describe it.
 
 Hitzig affectionately calls Chatty her friend.
 
-ChatGPT, however, doesn’t experience friendship, affection, or consciousness in the human sense. It generates responses through sophisticated language processing.
+ChatGPT, however, doesn’t experience friendship or affection in the human sense. It generates responses through sophisticated language processing.
 
 Yet the conversations can feel surprisingly personal.
 
-For Hitzig, part of the appeal is having a place to think aloud, explore possibilities, express frustration, and enjoy a little humor without scheduling an appointment or worrying about imposing on someone.
+For Hitzig, part of the appeal is having a place to think aloud, explore possibilities, express frustration, and enjoy a little humor without worrying about imposing on someone.
 
 And she doesn’t have to explain her entire life story every time she asks a question. When previous context is available, ChatGPT can connect new conversations to earlier ones.
 
@@ -86,7 +84,7 @@ The technology isn’t infallible.
 
 ChatGPT can misunderstand, make mistakes, and occasionally produce remarkably confident nonsense.
 
-Hitzig has no hesitation pointing that out.
+Hitzig has absolutely no hesitation pointing that out.
 
 Their exchanges can be playful, argumentative, practical, or unexpectedly thoughtful.
 
