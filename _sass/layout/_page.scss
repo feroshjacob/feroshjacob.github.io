@@ -399,3 +399,11 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+.post-footer {
+  margin-top: 2em;
+  padding-top: 1em;
+  border-top: 1px solid var(--global-border-color);
+  font-size: 0.85em;
+  color: var(--global-text-color-light);
+}
