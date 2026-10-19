@@ -132,3 +132,22 @@ cpu-vs-gpu-battle:
     - "How have coding agents changed the economics of GPU optimization?"
     - "What does an honest, on-device scorecard look like for a real problem?"
     - "Where does classical, CPU-friendly engineering still beat deep learning?"
+
+ai-search-vs-seo:
+  title: "AI Search vs SEO: How AI Agents Rank Businesses and Products"
+  description: "A series of systematic experiments on how AI assistants (ChatGPT, Gemini, Perplexity, Claude) rank business services and products, compared with Google and Bing search, and what that means for anyone who pays for SEO."
+  permalink: "/series/ai-search-vs-seo/"
+  category: "ai-search-vs-seo"
+  image: "/images/ai-search-vs-seo.png"
+  start_here: "Start with Part 1, which explains why I am running these experiments; Part 2 compares ChatGPT with Google and Bing for \"top business near me\" queries."
+  themes:
+    - "AI search"
+    - "SEO and AEO/GEO"
+    - "Local business ranking"
+    - "Product listings in AI answers"
+    - "Measured experiments"
+  questions:
+    - "How does ChatGPT decide which businesses to recommend?"
+    - "Does ranking #1 on Google mean anything inside an AI chat?"
+    - "Which index does each AI assistant actually search?"
+    - "Is paying for SEO still the way to buy visibility?"
