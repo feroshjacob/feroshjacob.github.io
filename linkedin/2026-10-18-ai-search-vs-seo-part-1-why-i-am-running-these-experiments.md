@@ -2,7 +2,7 @@
 post_title: "Part 1: Why I Am Running These Experiments"
 post_url: "https://feroshjacob.github.io/posts/2026/10/18/ai-search-vs-seo-part-1-why-i-am-running-these-experiments"
 post_slug: "2026-10-18-ai-search-vs-seo-part-1-why-i-am-running-these-experiments"
-linkedin_status: ready
+linkedin_status: "published"
 visibility: PUBLIC
 post_image: "/images/ai-search-vs-seo.png"
 hashtags:
@@ -12,6 +12,9 @@ hashtags:
   - ChatGPT
   - LocalSEO
   - SmallBusiness
+linkedin_post_urn: "urn:li:share:7517773930770636800"
+linkedin_published_at: "2026-10-19T02:29:39.080151+00:00"
+linkedin_thumbnail_urn: "urn:li:image:D4E10AQHbfIMRf0CGyQ"
 ---
 
 For twenty years, being found meant ranking on Google. Now customers ask a chatbot, and nobody can tell a business owner why they are on the list.
