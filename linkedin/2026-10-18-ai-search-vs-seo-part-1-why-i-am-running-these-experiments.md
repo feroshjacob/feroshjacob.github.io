@@ -2,7 +2,7 @@
 post_title: "Part 1: Why I Am Running These Experiments"
 post_url: "https://feroshjacob.github.io/posts/2026/10/18/ai-search-vs-seo-part-1-why-i-am-running-these-experiments"
 post_slug: "2026-10-18-ai-search-vs-seo-part-1-why-i-am-running-these-experiments"
-linkedin_status: "draft"
+linkedin_status: ready
 visibility: PUBLIC
 post_image: "/images/ai-search-vs-seo.png"
 hashtags:
