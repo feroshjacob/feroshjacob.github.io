@@ -2,7 +2,7 @@
 post_title: "Part 2: Google Picked One Plumber. ChatGPT Picked Another."
 post_url: "https://feroshjacob.github.io/posts/2026/10/24/ai-search-vs-seo-part-2-google-picked-one-plumber-chatgpt-picked-another"
 post_slug: "2026-10-24-ai-search-vs-seo-part-2-google-picked-one-plumber-chatgpt-picked-another"
-linkedin_status: "draft"
+linkedin_status: "published"
 visibility: PUBLIC
 post_image: "/images/ai-search-vs-seo-part-2.png"
 hashtags:
@@ -11,6 +11,9 @@ hashtags:
   - AEO
   - LocalSEO
   - SmallBusiness
+linkedin_post_urn: "urn:li:share:7519960192881688577"
+linkedin_published_at: "2026-10-25T03:17:04.470893+00:00"
+linkedin_thumbnail_urn: "urn:li:image:D4E10AQFUKUcVCsIREA"
 ---
 
 In Part 1 I said a #1 Google rank may not mean a #1 ChatGPT rank, and that I would test it and publish either way. Here is the either way.
