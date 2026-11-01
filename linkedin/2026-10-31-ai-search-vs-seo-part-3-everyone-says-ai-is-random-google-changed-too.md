@@ -2,7 +2,7 @@
 post_title: "Part 3: Everyone Says AI Answers Are Random. Google's Map Changed Its Mind Too."
 post_url: "https://feroshjacob.github.io/posts/2026/10/31/ai-search-vs-seo-part-3-everyone-says-ai-is-random-google-changed-too"
 post_slug: "2026-10-31-ai-search-vs-seo-part-3-everyone-says-ai-is-random-google-changed-too"
-linkedin_status: draft
+linkedin_status: "published"
 visibility: PUBLIC
 post_image: "/images/ai-search-vs-seo-part-3.png"
 hashtags:
@@ -11,6 +11,9 @@ hashtags:
   - AEO
   - LocalSEO
   - SmallBusiness
+linkedin_post_urn: "urn:li:share:7522680782201577473"
+linkedin_published_at: "2026-11-01T15:27:43.618059+00:00"
+linkedin_thumbnail_urn: "urn:li:image:D4E10AQGTcNAK-FX2cA"
 ---
 
 "AI answers are random. Google is dependable." I believed that too, until I asked the same eight "near me" questions on three evenings.
