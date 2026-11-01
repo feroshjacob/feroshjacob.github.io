@@ -55,6 +55,9 @@ The assistants do not work that way. ChatGPT gave me a numbered list every time,
 
 I expected the AI answers to be the flaky ones — a different list every time you ask. The opposite happened: the map pack moved around between evenings more than the chatbot did.
 
+> **Update, November 1, 2026:** I overstated this. When I compared them fairly in [Part 3](https://feroshjacob.github.io/posts/2026/10/31/ai-search-vs-seo-part-3-everyone-says-ai-is-random-google-changed-too), the map's three slots against each assistant's top three, the gap mostly disappeared: the chatbots were about as steady as Google's map, not steadier. Google's ordinary blue links were the steadiest of all.
+
+
 Three evenings is not a study of the internet. It is enough to tell me the comfortable assumption — search is dependable, AI is unpredictable — is not safe to repeat.
 
 ## So what should a business actually do?
