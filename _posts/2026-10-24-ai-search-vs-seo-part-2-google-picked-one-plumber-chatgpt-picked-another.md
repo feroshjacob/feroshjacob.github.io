@@ -74,7 +74,7 @@ Neither covers for the other. Do only the first and the chat may never mention y
 
 A service call ends in a phone number. A product ends in a cart.
 
-Next week I am running a version of this experiment with Akanksha, on product ranking — what happens when you ask an assistant to find something to *buy* rather than someone to *hire*. If one question about a plumber gives four answers, what happens when there is a checkout at the end of it?
+Next I am running a version of this experiment on product ranking — what happens when you ask an assistant to find something to *buy* rather than someone to *hire*. If one question about a plumber gives four answers, what happens when there is a checkout at the end of it?
 
 ## How I ran this, and what I am not claiming
 

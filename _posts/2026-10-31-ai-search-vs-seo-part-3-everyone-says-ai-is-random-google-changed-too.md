@@ -27,7 +27,7 @@ excerpt: "The usual assumption is that AI assistants are unpredictable and Googl
 
 ## First, an apology
 
-Last week I promised that this part would be about products, which I am running with Akanksha: what happens when you ask an assistant to find something to *buy* rather than someone to *hire*. I did not finish that work on time, and I would rather say so than publish something half-done. It is now Part 4, and I think it will be worth the wait.
+Last week I promised that this part would be about products: what happens when you ask an assistant to find something to *buy* rather than someone to *hire*. I did not finish that work on time, and I would rather say so than publish something half-done. It is now Part 4, and I think it will be worth the wait.
 
 In the meantime, the data I collected for [Part 2](https://feroshjacob.github.io/posts/2026/10/24/ai-search-vs-seo-part-2-google-picked-one-plumber-chatgpt-picked-another) held something I had not looked at closely: how much each answer changed from one evening to the next. This is that post.
 
@@ -63,7 +63,7 @@ So my view, for now: be cautious of anyone selling a guaranteed "rank #1 in Chat
 
 I may be wrong, and the field may grow up quickly. That is why I am measuring rather than predicting.
 
-## Next: products, with Akanksha
+## Next: products
 
 Part 4 is the one I owe you: the same question, but about something you buy instead of someone you hire. A plumber ends in a phone call. A product ends in a cart, and that changes what is at stake.
 
