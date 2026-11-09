@@ -17,7 +17,7 @@ If you sell online, your shop window has been a page of Google results for twent
 
 Google's top five links led to stores: 54 of 118 were stores and 34 more were the maker's own site. Amazon was in the top five on 18 of 24 pages.
 
-Claude behaved differently. Of the 367 sites it read, 313 were review, news or blog sites and 32 were stores. It never opened an Amazon, Walmart, Best Buy or Costco page, and it named a store in 20 of 72 answers. It picked the product first.
+Claude behaved differently. Of the 367 sites it read (each counted once per answer), 313 were review, news or blog sites and 32 were stores. It never opened an Amazon, Walmart, Best Buy or Costco page, and it named a store in 20 of 72 answers. It picked the product first.
 
 One word shows the gap: "cordless drill" opens with Amazon; "best cordless drill" opens with Consumer Reports every evening.
 

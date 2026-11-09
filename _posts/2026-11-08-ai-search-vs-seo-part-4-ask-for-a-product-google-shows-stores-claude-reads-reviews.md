@@ -1,7 +1,6 @@
 ---
 title: "Part 4: E-commerce Alert: AI Shoppers Read Reviews, Not Your Store"
 date: 2026-11-08
-published: false
 permalink: /posts/2026/11/08/ai-search-vs-seo-part-4-ask-for-a-product-google-shows-stores-claude-reads-reviews
 categories:
   - ai-search-vs-seo
