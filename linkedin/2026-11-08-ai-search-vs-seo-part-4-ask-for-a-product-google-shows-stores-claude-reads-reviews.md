@@ -2,7 +2,7 @@
 post_title: "Part 4: E-commerce Alert: AI Shoppers Read Reviews, Not Your Store"
 post_url: "https://feroshjacob.github.io/posts/2026/11/08/ai-search-vs-seo-part-4-ask-for-a-product-google-shows-stores-claude-reads-reviews"
 post_slug: "2026-11-08-ai-search-vs-seo-part-4-ask-for-a-product-google-shows-stores-claude-reads-reviews"
-linkedin_status: "draft"
+linkedin_status: "published"
 visibility: PUBLIC
 post_image: "/images/ai-search-vs-seo-part-4.png"
 hashtags:
@@ -11,6 +11,9 @@ hashtags:
   - SEO
   - AEO
   - AIAgents
+linkedin_post_urn: "urn:li:share:7525403506070175744"
+linkedin_published_at: "2026-11-09T03:46:51.546576+00:00"
+linkedin_thumbnail_urn: "urn:li:image:D4E10AQGBE2x4jD84EQ"
 ---
 
 If you sell online, your shop window has been a page of Google results for twenty years. Shoppers are now asking AI assistants what to buy, and agents that shop for them are next. So I asked eight everyday product questions, "air fryer" to "cordless drill", on three evenings.
