@@ -2,7 +2,7 @@
 post_title: "Part 5: How Can I Sell Products Through ChatGPT?"
 post_url: "https://feroshjacob.github.io/posts/2026/11/15/ai-search-vs-seo-part-5-how-can-i-sell-products-through-chatgpt"
 post_slug: "2026-11-15-ai-search-vs-seo-part-5-how-can-i-sell-products-through-chatgpt"
-linkedin_status: "ready"
+linkedin_status: "published"
 visibility: PUBLIC
 post_image: "/images/ai-search-vs-seo-part-5.png"
 hashtags:
@@ -11,6 +11,9 @@ hashtags:
   - ChatGPT
   - AEO
   - AgenticCommerce
+linkedin_post_urn: "urn:li:share:7527922609900961792"
+linkedin_published_at: "2026-11-16T02:36:52.751692+00:00"
+linkedin_thumbnail_urn: "urn:li:image:D4E10AQHcPRK_sEg4fA"
 ---
 
 Part 4 found that an AI assistant asked for a product reads reviews, not stores. The next question is the seller's: how do I actually sell through ChatGPT?
