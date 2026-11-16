@@ -14,6 +14,9 @@ hashtags:
 linkedin_post_urn: "urn:li:share:7527922609900961792"
 linkedin_published_at: "2026-11-16T02:36:52.751692+00:00"
 linkedin_thumbnail_urn: "urn:li:image:D4E10AQHcPRK_sEg4fA"
+company_reshare_text: "Our founder, Ferosh Jacob, put Google and ChatGPT side by side for small sellers: what each offers today, what it costs, and what to do this week."
+company_reshare_urn: "urn:li:share:7527934916748062721"
+company_reshared_at: "2026-11-16T03:25:46.795909+00:00"
 ---
 
 Part 4 found that an AI assistant asked for a product reads reviews, not stores. The next question is the seller's: how do I actually sell through ChatGPT?
