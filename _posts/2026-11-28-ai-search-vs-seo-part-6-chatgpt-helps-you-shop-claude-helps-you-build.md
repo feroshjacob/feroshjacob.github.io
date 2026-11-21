@@ -23,8 +23,8 @@ excerpt: "I ran Part 4's eight product searches in ChatGPT on three evenings. Ch
 ---
 
 <p class="align-center">
-  <img src="/images/ai-search-vs-seo-part-6.png" alt="Bar chart titled 'A shopper asks for a product: where does it lead?'. For eight product searches over three evenings: Google's top five links were 18 Amazon, 36 other stores, 34 maker sites, 23 review sites and 7 others, 118 in all. Bing's were 10 Amazon, 41 other stores, 15 maker sites, 19 review sites and 4 others, 89 in all. The sites Claude read were 0 Amazon, 32 other stores, 17 maker sites, 313 review sites and 5 others, 367 in all. ChatGPT's links were 0 Amazon, 56 other stores, 28 maker sites, 2 review sites and 6 others, 92 in all." style="max-width: 100%; height: auto;" />
-  <br><em>Where a shopper's product question leads. Google, Bing and Claude from Part 4 (4 to 6 November 2026); ChatGPT eleven days later (15, 16 and 18 November 2026).</em>
+  <img src="/images/ai-search-vs-seo-part-6.png" alt="A small storefront split down the middle. The left half is a finished shop in autumn, with pumpkins at the door, a pie in the window and two shopping bags carrying a tag that reads '56 of 92 links went to stores', under the words 'ChatGPT helps you shop.' The right half is the same shop drawn as a blueprint with a toolbox and the notes 'Open-source blueprint', 'The agent runs on your own site' and 'Checkout stays with you', under the words 'Claude helps you build.'" style="max-width: 100%; height: auto;" />
+  <br><em>One store, two halves: ChatGPT sent shoppers to stores in my test; Anthropic's blueprint, as reported, is something a merchant builds with.</em>
 </p>
 
 ## The short version
@@ -36,6 +36,11 @@ In Part 4, Claude, through Anthropic's API, read reviews: 313 of the 367 sites i
 ## ChatGPT helps you shop
 
 ChatGPT answered with product cards that link out. Walmart (12 links), Home Depot (12) and Best Buy (11) led. Its text named Amazon as a store in 3 of 27 answers, always in a list of several, but it never linked to Amazon, and Amazon was not among the 202 source links it listed.
+
+<p class="align-center">
+  <img src="/images/ai-search-vs-seo-part-6-chart.png" alt="Bar chart titled 'A shopper asks for a product: where does it lead?'. For eight product searches over three evenings: Google's top five links were 18 Amazon, 36 other stores, 34 maker sites, 23 review sites and 7 others, 118 in all. Bing's were 10 Amazon, 41 other stores, 15 maker sites, 19 review sites and 4 others, 89 in all. The sites Claude read were 0 Amazon, 32 other stores, 17 maker sites, 313 review sites and 5 others, 367 in all. ChatGPT's links were 0 Amazon, 56 other stores, 28 maker sites, 2 review sites and 6 others, 92 in all." style="max-width: 100%; height: auto;" />
+  <br><em>Where a shopper's product question leads. Google, Bing and Claude from Part 4 (4 to 6 November 2026); ChatGPT eleven days later (15, 16 and 18 November 2026).</em>
+</p>
 
 | Where the search leads | Google, top 5 links | Bing, top 5 links | Claude, sites it read | ChatGPT, links it gave |
 |---|---|---|---|---|
@@ -80,4 +85,6 @@ ChatGPT ran eleven to twelve days after Part 4's runs, so prices and stock diffe
 
 ## What's next
 
-Part 4 left ChatGPT out of the product test; this part fills that gap. The earlier parts are on the [series page](/series/ai-search-vs-seo/).
+Part 4 left ChatGPT out of the product test; this part fills that gap.
+
+Happy Thanksgiving weekend, and thank you for reading.
