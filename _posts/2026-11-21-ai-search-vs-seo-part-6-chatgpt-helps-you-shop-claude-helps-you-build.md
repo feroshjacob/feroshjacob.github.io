@@ -1,7 +1,7 @@
 ---
 title: "Part 6: ChatGPT Helps You Shop. Claude Helps You Build."
-date: 2026-11-28
-permalink: /posts/2026/11/28/ai-search-vs-seo-part-6-chatgpt-helps-you-shop-claude-helps-you-build
+date: 2026-11-21
+permalink: /posts/2026/11/21/ai-search-vs-seo-part-6-chatgpt-helps-you-shop-claude-helps-you-build
 categories:
   - ai-search-vs-seo
 series: ai-search-vs-seo
@@ -106,4 +106,4 @@ ChatGPT ran eleven to twelve days after Part 4's runs, so prices and stock diffe
 
 Part 4 left ChatGPT out of the product test; this part fills that gap.
 
-Happy Thanksgiving weekend, and thank you for reading.
+Happy Thanksgiving, and thank you for reading.
