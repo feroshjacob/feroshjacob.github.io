@@ -2,7 +2,11 @@
 post_title: "Part 6: ChatGPT Helps You Shop. Claude Helps You Build."
 post_url: "https://feroshjacob.github.io/posts/2026/11/21/ai-search-vs-seo-part-6-chatgpt-helps-you-shop-claude-helps-you-build"
 post_slug: "2026-11-21-ai-search-vs-seo-part-6-chatgpt-helps-you-shop-claude-helps-you-build"
-linkedin_status: ready
+linkedin_status: "published"
+linkedin_post_urn: "urn:li:share:7530054942351540225"
+linkedin_thumbnail_urn: "urn:li:image:D4E10AQEdRtc_oQnvFA"
+linkedin_published_at: "2026-11-21"
+company_reshare_urn: "urn:li:share:7530054963859853312"
 visibility: PUBLIC
 post_image: "/images/ai-search-vs-seo-part-6.png"
 company_reshare_text: "Our founder, Ferosh Jacob, ran eight product searches in ChatGPT: 56 of its 92 links went to stores, none to Amazon. What that means for small sellers this holiday season."
