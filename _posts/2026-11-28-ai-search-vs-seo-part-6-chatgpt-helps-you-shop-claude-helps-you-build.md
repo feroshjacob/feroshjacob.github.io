@@ -37,22 +37,41 @@ In Part 4, Claude, through Anthropic's API, read reviews: 313 of the 367 sites i
 
 ChatGPT answered with product cards that link out. Walmart (12 links), Home Depot (12) and Best Buy (11) led. Its text named Amazon as a store in 3 of 27 answers, always in a list of several, but it never linked to Amazon, and Amazon was not among the 202 source links it listed.
 
-<p class="align-center">
-  <img src="/images/ai-search-vs-seo-part-6-chart.png" alt="Bar chart titled 'A shopper asks for a product: where does it lead?'. For eight product searches over three evenings: Google's top five links were 18 Amazon, 36 other stores, 34 maker sites, 23 review sites and 7 others, 118 in all. Bing's were 10 Amazon, 41 other stores, 15 maker sites, 19 review sites and 4 others, 89 in all. The sites Claude read were 0 Amazon, 32 other stores, 17 maker sites, 313 review sites and 5 others, 367 in all. ChatGPT's links were 0 Amazon, 56 other stores, 28 maker sites, 2 review sites and 6 others, 92 in all." style="max-width: 100%; height: auto;" />
-  <br><em>Where a shopper's product question leads. Google, Bing and Claude from Part 4 (4 to 6 November 2026); ChatGPT eleven days later (15, 16 and 18 November 2026).</em>
-</p>
 
-| Where the search leads | Google, top 5 links | Bing, top 5 links | Claude, sites it read | ChatGPT, links it gave |
-|---|---|---|---|---|
+<style>
+.p6-table { margin: 1.25em 0 0.5em; }
+.p6-table table { width: 100%; border: 0; border-collapse: separate; border-spacing: 0; font-size: 0.85em; font-variant-numeric: tabular-nums; }
+.p6-table thead { background: none; border: 0; }
+.p6-table th { background: var(--global-text-color); color: var(--global-bg-color); font-weight: 700; padding: 0.6em 0.7em; border: 0; line-height: 1.25; }
+.p6-table th:first-child { border-top-left-radius: 6px; }
+.p6-table th:last-child { border-top-right-radius: 6px; }
+.p6-table td { padding: 0.55em 0.7em; border: 0; border-bottom: 1px solid color-mix(in srgb, var(--global-text-color) 15%, transparent); }
+.p6-table th:first-child, .p6-table td:first-child { text-align: left; }
+.p6-table tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--global-text-color) 5%, transparent); }
+.p6-table td:last-child { background: color-mix(in srgb, #2f8c7e 16%, transparent) !important; font-weight: 700; }
+.p6-table th:last-child { background: #2f8c7e; color: #ffffff; }
+.p6-table tbody tr:first-child td:not(:first-child) { color: #c0392b; font-weight: 800; }
+html[data-theme="dark"] .p6-table tbody tr:first-child td:not(:first-child) { color: #f2b84b; }
+.p6-table tbody tr:last-child td { font-weight: 700; border-top: 2px solid var(--global-text-color); border-bottom: 0; }
+@media (min-width: 481px) { .p6-table th { white-space: nowrap; } }
+@media (max-width: 480px) { .p6-table table { font-size: 0.78em; } .p6-table th, .p6-table td { padding: 0.5em 0.4em; } }
+</style>
+
+<div class="p6-table" markdown="1">
+
+| Where it leads | Google top 5 | Bing top 5 | Claude read | ChatGPT gave |
+|:---|---:|---:|---:|---:|
 | Amazon | 18 | 10 | 0 | 0 |
-| Big-box chains (Walmart, Best Buy, Home Depot…) | 18 | 27 | 1 | 38 |
+| Big-box chains (Walmart, Best Buy, Home Depot) | 18 | 27 | 1 | 38 |
 | Other stores | 18 | 14 | 31 | 18 |
 | Maker's own site | 34 | 15 | 17 | 28 |
 | Reviews, news, blogs | 23 | 19 | 313 | 2 |
 | Other | 7 | 4 | 5 | 6 |
-| **Total** | **118** | **89** | **367** | **92** |
+| Total | 118 | 89 | 367 | 92 |
 
-Google and Bing count every top-five link; Claude each site once per answer; ChatGPT every link. Its 6 "other" links reopened ChatGPT.
+</div>
+
+Columns: Google's and Bing's top-five links; sites Claude read, once per answer; links ChatGPT gave. Its 6 "other" links reopened ChatGPT.
 
 **It cites reviewers but links to stores.** Asked for its sources, ChatGPT gave 102 sites, counting a site once per answer; 40 were review, news or blog sites. The reviewers get the citation; the store gets the click.
 
